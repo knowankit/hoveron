@@ -1,0 +1,23 @@
+.pop{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pop:hover {
+  animation-name: pop;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}

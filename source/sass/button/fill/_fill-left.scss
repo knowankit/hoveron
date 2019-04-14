@@ -1,0 +1,119 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/mixins";
+
+// warning
+.fill-left-warning{
+  @include fill-left;
+  border: 2px solid get-color("warning");
+}
+
+.fill-left-warning::before{
+  @include fill-left-before; 
+  background-color: get-color("warning");
+}
+
+.fill-left-warning:hover::before{
+  width:100%;
+}
+
+// primary
+.fill-left-primary{
+  @include fill-left;
+  border: 2px solid get-color("primary");
+}
+
+.fill-left-primary::before{
+  @include fill-left-before; 
+  background-color: get-color("primary");
+}
+
+.fill-left-primary:hover::before{
+  width:100%;
+}
+
+// secondary
+
+.fill-left-secondary{
+  @include fill-left;
+  border: 2px solid get-color("secondary");
+}
+
+.fill-left-secondary::before{
+  @include fill-left-before; 
+  background-color: get-color("secondary");
+}
+
+.fill-left-secondary:hover::before{
+  width:100%;
+}
+
+// danger
+
+.fill-left-danger{
+  @include fill-left;
+  border: 2px solid get-color("danger");
+}
+
+.fill-left-danger::before{
+  @include fill-left-before; 
+  background-color: get-color("danger");
+}
+
+.fill-left-danger:hover::before{
+  width:100%;
+}
+
+// info
+
+.fill-left-info{
+  @include fill-left;
+  border: 2px solid get-color("info");
+}
+
+.fill-left-info::before{
+  @include fill-left-before; 
+  background-color: get-color("info");
+}
+
+.fill-left-info:hover::before{
+  width:100%;
+}
+
+// dark
+
+.fill-left-dark{
+  @include fill-left;
+  border: 2px solid get-color("dark");
+  color: black !important;
+}
+
+.fill-left-dark::before{
+  @include fill-left-before; 
+  background-color: get-color("dark");
+  color: white !important;
+}
+
+.fill-left-dark:hover::before{
+  width:100%;
+  color: white !important;
+}
+
+// light
+
+.fill-left-success{
+  @include fill-left;
+  border: 2px solid get-color("success");
+}
+
+.fill-left-success::before{
+  @include fill-left-before; 
+  background-color: get-color("success");
+}
+
+.fill-left-success:hover::before{
+  width:100%;
+}
+
+
+
+  

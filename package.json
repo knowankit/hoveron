@@ -1,0 +1,25 @@
+{
+  "name": "hover-on",
+  "version": "1.0.4",
+  "description": "Hover animation buttons also supports bootstrap buttons",
+  "main": "hover-on.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowankit/hoveron.git"
+  },
+  "keywords": [
+    "buttons",
+    "animations",
+    "hover-animation",
+    "button-animation"
+  ],
+  "author": "Ankit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knowankit/hoveron/issues"
+  },
+  "homepage": "https://knowankit.com"
+}

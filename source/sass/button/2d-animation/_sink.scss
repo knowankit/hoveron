@@ -1,0 +1,10 @@
+.sink {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sink:hover {
+  transform: translatey(5px);
+}

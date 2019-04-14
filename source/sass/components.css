@@ -1,0 +1,1141 @@
+.btn {
+  border: none;
+  padding: 10px 20px;
+  height: 42px;
+  font-weight: bold;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  color: #FFDC00;
+}
+
+.btn-underline::after,
+.btn-underline::before {
+  content: '';
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 20px;
+  position: absolute;
+  border: 0 solid transparent;
+}
+
+.btn-underline::before {
+  top: -5px;
+  left: 0px;
+  border-top: 2px solid #FFDC00;
+}
+
+.btn-underline::after {
+  bottom: -5px;
+  right: 0px;
+  border-bottom: 2px solid #FFDC00;
+}
+
+.btn-underline:hover::before,
+.btn-underline:hover::after {
+  width: 100%;
+}
+
+.btn-underline-bottom::after {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 20px;
+  position: absolute;
+  border: 0 solid transparent;
+}
+
+.btn-underline-bottom::after {
+  bottom: -5px;
+  left: 0px;
+  border-bottom: 2px solid #FFDC00;
+}
+
+.btn-underline-bottom:hover::after {
+  width: 100%;
+}
+
+.btn-underline-top::before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 20px;
+  position: absolute;
+  border: 0 solid transparent;
+}
+
+.btn-underline-top::before {
+  top: -5px;
+  left: 0px;
+  border-bottom: 2px solid #FFDC00;
+}
+
+.btn-underline-top:hover::before {
+  width: 100%;
+}
+
+.btn-fill {
+  background-color: transparent;
+  padding: 10px 20px;
+  height: 42px;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid #FF4136;
+  color: white;
+}
+
+.btn-fill-left::before {
+  content: '';
+  background-color: #FF4136;
+  height: inherit;
+  position: absolute;
+  width: 0%;
+  top: -2px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  color: white;
+}
+
+.btn-fill-left:hover::before {
+  width: 100%;
+}
+
+.btn-fill-right::before {
+  content: '';
+  background-color: #FF4136;
+  height: inherit;
+  position: absolute;
+  width: 0%;
+  top: -2px;
+  right: 0px;
+  z-index: -1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.btn-fill-right:hover {
+  color: white;
+}
+
+.btn-fill-right:hover::before {
+  width: 100%;
+}
+
+.btn-fill-top::before {
+  content: '';
+  background-color: #FF4136;
+  height: 0%;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  color: white;
+}
+
+.btn-fill-top:hover::before {
+  height: 100%;
+}
+
+.btn-fill-bottom::before {
+  content: '';
+  background-color: #FF4136;
+  height: 0%;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.btn-fill-bottom:hover::before {
+  height: 100%;
+}
+
+.btn-top-bottom {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #FF4136;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-top-bottom:hover {
+  color: white;
+}
+
+.btn-top-bottom::before {
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.btn-top-bottom:hover::before,
+.btn-top-bottom:hover::after {
+  height: 50%;
+}
+
+.btn-top-bottom::after {
+  content: '';
+  bottom: 0px;
+  background-color: #FF4136;
+  width: 100%;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  z-index: -1;
+}
+
+.btn-left-right {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #FF4136;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-left-right:hover {
+  color: white;
+}
+
+.btn-left-right::before {
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 42px;
+  top: -2px;
+  left: 0px;
+  width: 0%;
+  z-index: -1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.btn-left-right:hover::before,
+.btn-left-right:hover::after {
+  width: 50%;
+}
+
+.btn-left-right::after {
+  content: '';
+  bottom: -2px;
+  background-color: #FF4136;
+  width: 0%;
+  height: 42px;
+  right: 0px;
+  position: absolute;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  z-index: -1;
+}
+
+.btn-skew-left {
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #FF4136;
+  height: 42px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-skew-left::after, .btn-skew-left:before {
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+.btn-skew-left::before {
+  left: 49%;
+  top: -2px;
+}
+
+.btn-skew-left::after {
+  right: 50%;
+  top: -2px;
+}
+
+.btn-skew-left:hover::after, .btn-skew-left:hover::before {
+  width: 100%;
+}
+
+.btn-skew-right {
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #FF4136;
+  height: 42px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-skew-right::after, .btn-skew-right:before {
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+}
+
+.btn-skew-right::before {
+  left: 49%;
+  top: -2px;
+}
+
+.btn-skew-right::after {
+  right: 50%;
+  top: -2px;
+}
+
+.btn-skew-right:hover::after, .btn-skew-right:hover::before {
+  width: 100%;
+}
+
+.btn-cool-shine {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #FF4136;
+  height: 42px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-cool-shine:before {
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+}
+
+.btn-cool-shine:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.1s;
+          animation-duration: 0.1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes shine {
+  to {
+    left: 150%;
+  }
+}
+
+@keyframes shine {
+  to {
+    left: 150%;
+  }
+}
+
+.btn-grow {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: #0074D9;
+}
+
+.btn-grow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn-pulse {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: #0074D9;
+}
+
+.btn-pulse:hover {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-shrink {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: #0074D9;
+}
+
+.btn-shrink:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.btn-pulse-shrink {
+  border: none;
+  padding: 10px;
+  background-color: #0074D9;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-pulse-shrink:hover {
+  -webkit-animation-name: pulse-shrink;
+          animation-name: pulse-shrink;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-pulse-grow {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-pulse-grow:hover {
+  -webkit-animation-name: pulse-grow;
+          animation-name: pulse-grow;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-pop {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-pop:hover {
+  -webkit-animation-name: pop;
+          animation-name: pop;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-push {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-push:hover {
+  -webkit-animation-name: push;
+          animation-name: push;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-bounce-in {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-bounce-in:hover {
+  -webkit-animation-name: bounce-in;
+          animation-name: bounce-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn-bounce-out {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-bounce-out:hover {
+  -webkit-animation-name: bounce-out;
+          animation-name: bounce-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn-bounce-out {
+  border: none;
+  background-color: #0074D9;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-bounce-out:hover {
+  -webkit-animation-name: bounce-out;
+          animation-name: bounce-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn-rotate {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-rotate:hover {
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn-rotate-grow {
+  border: none;
+  background-color: #0074D9;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-rotate-grow:hover {
+  -webkit-animation-name: rotate-grow;
+          animation-name: rotate-grow;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn-float {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-float:hover {
+  -webkit-transform: translatey(-5px);
+          transform: translatey(-5px);
+}
+
+.btn-sink {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-sink:hover {
+  -webkit-transform: translatey(5px);
+          transform: translatey(5px);
+}
+
+.btn-bob {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-bob:hover {
+  -webkit-animation-name: bob;
+          animation-name: bob;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-hang {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-hang:hover {
+  -webkit-animation-name: hang;
+          animation-name: hang;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.btn-skew {
+  background-color: #0074D9;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-skew:hover {
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
+}
+
+.btn-wobble-skew {
+  background-color: #0074D9;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-wobble-skew:hover {
+  -webkit-animation-name: wobble-skew;
+          animation-name: wobble-skew;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+.btn-forward {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  background-color: #0074D9;
+}
+
+.btn-forward:hover {
+  -webkit-transform: translatex(10px);
+          transform: translatex(10px);
+}
+
+.btn-backward {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background-color: #0074D9;
+  font-weight: bold;
+  color: black;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.btn-backward:hover {
+  -webkit-transform: translatex(-10px);
+          transform: translatex(-10px);
+}
+
+@-webkit-keyframes wobble-skew {
+  0% {
+    -webkit-transform: skew(0deg);
+            transform: skew(0deg);
+  }
+  50% {
+    -webkit-transform: skew(10deg);
+            transform: skew(10deg);
+  }
+  100% {
+    -webkit-transform: skew(-10deg);
+            transform: skew(-10deg);
+  }
+}
+
+@keyframes wobble-skew {
+  0% {
+    -webkit-transform: skew(0deg);
+            transform: skew(0deg);
+  }
+  50% {
+    -webkit-transform: skew(10deg);
+            transform: skew(10deg);
+  }
+  100% {
+    -webkit-transform: skew(-10deg);
+            transform: skew(-10deg);
+  }
+}
+
+@-webkit-keyframes hang {
+  0% {
+    -webkit-transform: translatey(2px);
+            transform: translatey(2px);
+  }
+  50% {
+    -webkit-transform: translatey(5px);
+            transform: translatey(5px);
+  }
+  100% {
+    -webkit-transform: translatey(3px);
+            transform: translatey(3px);
+  }
+}
+
+@keyframes hang {
+  0% {
+    -webkit-transform: translatey(2px);
+            transform: translatey(2px);
+  }
+  50% {
+    -webkit-transform: translatey(5px);
+            transform: translatey(5px);
+  }
+  100% {
+    -webkit-transform: translatey(3px);
+            transform: translatey(3px);
+  }
+}
+
+@-webkit-keyframes bob {
+  0% {
+    -webkit-transform: translatey(-2px);
+            transform: translatey(-2px);
+  }
+  50% {
+    -webkit-transform: translatey(-5px);
+            transform: translatey(-5px);
+  }
+  100% {
+    -webkit-transform: translatey(-3px);
+            transform: translatey(-3px);
+  }
+}
+
+@keyframes bob {
+  0% {
+    -webkit-transform: translatey(-2px);
+            transform: translatey(-2px);
+  }
+  50% {
+    -webkit-transform: translatey(-5px);
+            transform: translatey(-5px);
+  }
+  100% {
+    -webkit-transform: translatey(-3px);
+            transform: translatey(-3px);
+  }
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes pulse-shrink {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes pulse-shrink {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes pulse-grow {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-grow {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes push {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes push {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes pop {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes pop {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  80% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  80% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes bounce-out {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  80% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@keyframes bounce-out {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  80% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
+
+@-webkit-keyframes rotate-grow {
+  to {
+    -webkit-transform: rotate(5deg) scale(1.1);
+            transform: rotate(5deg) scale(1.1);
+  }
+}
+
+@keyframes rotate-grow {
+  to {
+    -webkit-transform: rotate(5deg) scale(1.1);
+            transform: rotate(5deg) scale(1.1);
+  }
+}
+
+.btn-shadow {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  background-color: #01FF70;
+}
+
+.btn-shadow::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  width: 100%;
+}
+
+.btn-shadow:hover::after {
+  -webkit-box-shadow: 0px 0px 4px 2px gray;
+          box-shadow: 0px 0px 4px 2px gray;
+}
+
+body {
+  background-color: #282a36;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #111111;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #111111;
+  box-shadow: 0px 3px 5px 5px #111111;
+}
+
+.railway-heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+button {
+  margin-right: 25px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=components.css.map */

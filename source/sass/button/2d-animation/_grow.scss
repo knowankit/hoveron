@@ -1,0 +1,8 @@
+.grow{
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.grow:hover {
+  transform: scale(1.1);
+}

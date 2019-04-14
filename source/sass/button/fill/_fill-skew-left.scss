@@ -1,0 +1,210 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/mixins";
+
+//primary
+  .fill-skew-left-primary{
+  @include fill-skew-left;
+  border: 2px solid get-color("primary");
+}
+
+.fill-skew-left-primary::after, .fill-skew-left-primary:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("primary");
+  
+}
+
+.fill-skew-left-primary::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-primary::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-primary:hover::after,.fill-skew-left-primary:hover::before{
+  width: 100%;
+}
+
+// warning
+  .fill-skew-left-warning{
+  @include fill-skew-left;
+  border: 2px solid get-color("warning");
+}
+
+.fill-skew-left-warning::after, .fill-skew-left-warning:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("warning");
+  
+}
+
+.fill-skew-left-warning::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-warning::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-warning:hover::after,.fill-skew-left-warning:hover::before{
+  width: 100%;
+}
+
+// danger
+  .fill-skew-left-danger{
+  @include fill-skew-left;
+  border: 2px solid get-color("danger");
+}
+
+.fill-skew-left-danger::after, .fill-skew-left-danger:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("danger");
+  
+}
+
+.fill-skew-left-danger::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-danger::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-danger:hover::after,.fill-skew-left-danger:hover::before{
+  width: 100%;
+}
+
+// success
+  .fill-skew-left-success{
+  @include fill-skew-left;
+  border: 2px solid get-color("success");
+}
+
+.fill-skew-left-success::after, .fill-skew-left-success:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("success");
+  
+}
+
+.fill-skew-left-success::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-success::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-success:hover::after,.fill-skew-left-success:hover::before{
+  width: 100%;
+}
+
+//info
+  .fill-skew-left-info{
+  @include fill-skew-left;
+  border: 2px solid get-color("info");
+}
+
+.fill-skew-left-info::after, .fill-skew-left-info:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("info");
+  
+}
+
+.fill-skew-left-info::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-info::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-info:hover::after,.fill-skew-left-info:hover::before{
+  width: 100%;
+}
+
+//secondary
+  .fill-skew-left-secondary{
+  @include fill-skew-left;
+  border: 2px solid get-color("secondary");
+}
+
+.fill-skew-left-secondary::after, .fill-skew-left-secondary:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("secondary");
+  
+}
+
+.fill-skew-left-secondary::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-secondary::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-secondary:hover::after,.fill-skew-left-secondary:hover::before{
+  width: 100%;
+}
+
+//light
+  .fill-skew-left-light{
+  @include fill-skew-left;
+  border: 2px solid get-color("light");
+}
+
+.fill-skew-left-light::after, .fill-skew-left-light:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("light");
+  
+}
+
+.fill-skew-left-light::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-light::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-light:hover::after,.fill-skew-left-light:hover::before{
+  width: 100%;
+}
+
+// dark
+  .fill-skew-left-dark{
+  @include fill-skew-left;
+  border: 2px solid get-color("dark");
+}
+
+.fill-skew-left-dark::after, .fill-skew-left-dark:before{
+  @include fill-skew-left-ab;
+  background-color: get-color("dark");
+  
+}
+
+.fill-skew-left-dark::before{
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-dark::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-dark:hover::after,.fill-skew-left-dark:hover::before{
+  width: 100%;
+}

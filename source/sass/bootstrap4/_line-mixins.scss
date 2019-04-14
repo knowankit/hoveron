@@ -1,0 +1,52 @@
+
+// top-line
+@mixin top-line {
+    border: none;
+    height: 42px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+@mixin top-line-before {
+    position: absolute;
+    content:'';
+    transition: all 0.25s;
+    width: 20px;
+    border: 0 solid transparent;
+    top: -5px;
+    left: 0px;
+}
+
+// bottom line
+@mixin bottom-line {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+@mixin bottom-line-after {
+    position: absolute;
+    content:'';
+    transition: all 0.25s;
+    width: 20px;
+    position:absolute;
+    border: 0 solid transparent;
+}
+
+// both line
+@mixin both-line {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+@mixin both-line-ab {
+    content:'';
+    transition: all 0.25s;
+    width: 20px;
+    position:absolute;
+    border: 0 solid transparent;
+}
