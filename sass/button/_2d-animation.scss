@@ -1,0 +1,106 @@
+.btn-g{
+    background-color: gray;
+    padding: 10px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-block;
+    
+    &.btn-grow:hover {
+  transform: scale(1.1)
+  }
+  &.btn-shrink:hover {
+    transform: scale(0.9);
+  }
+    &.btn-pulse-grow{
+      
+    }
+     &.btn-pulse-shrink{
+      
+    }
+    &.btn-pulse:hover{
+      animation-name: pulse;
+      animation-iteration-count: infinite;
+      animation-duration: 0.5s;
+      animation-direction: alternate;
+    }
+     &.btn-pulse-shrink:hover{
+      animation-name: pulse-shrink;
+      animation-iteration-count: infinite;
+      animation-duration: 0.5s;
+      animation-direction: alternate;
+    }
+    &.btn-pulse-grow:hover{
+      animation-name: pulse-grow;
+      animation-iteration-count: infinite;
+      animation-duration: 0.5s;
+      animation-direction: alternate;
+    }
+    &.btn-pop:hover{
+      animation-name: pop;
+      animation-iteration-count: 1;
+      animation-duration: 0.3s;
+      animation-direction: alternate;
+    }
+     &.btn-push:hover{
+      animation-name: push;
+      animation-iteration-count: 1;
+      animation-duration: 0.3s;
+      animation-direction: alternate;
+    }
+  }
+  
+  
+  
+  @keyframes pulse{
+    from{
+      transform: scale(0.9);
+    }
+    
+    to{
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes pulse-shrink{
+     from{
+      transform: scale(1);
+    }
+    
+    to{
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes pulse-grow{
+     from{
+      transform: scale(1);
+    }
+    
+    to{
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes push{
+     from{
+      transform: scale(1);
+    }
+    
+    to{
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes pop{
+     from{
+      transform: scale(1);
+    }
+    
+    to{
+      transform: scale(1.1);
+    }
+  }
+  
+  
