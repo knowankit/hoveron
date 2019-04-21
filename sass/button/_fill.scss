@@ -82,5 +82,94 @@
   .btn-fill-bottom:hover::before{
     height:100%;
   }
+
+  //Fill Top bottom
+
+  .btn-top-bottom{
+    padding: 10px;
+    height: 42px;
+    cursor: pointer;
+    position:relative;
+    border: 2px solid black;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+  }
+  .btn-top-bottom:hover{
+    color: white;
+  }
+  .btn-top-bottom::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height:0px;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+    z-index: -1;
+    transition: all 0.25s;
+  }
+  
+  .btn-top-bottom:hover::before,
+  .btn-top-bottom:hover::after{
+    height: 50%;
+  }
+  
+  .btn-top-bottom::after{
+    content: '';
+    bottom:0px;
+    background-color:black;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    position: absolute;
+    transition: all 0.25s;
+    z-index: -1;
+  }
+  
+  //Fill left right
+
+  .btn-left-right{
+    padding: 10px;
+    height: 42px;
+    cursor: pointer;
+    position:relative;
+    border: 2px solid black;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+  }
+  .btn-left-right:hover{
+    color: white;
+  }
+  .btn-left-right::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height:42px;
+    top: -2px;
+    left: 0px;
+    width: 0%; 
+    z-index: -1;
+    transition: all 0.25s;
+  }
+  
+  .btn-left-right:hover::before,
+  .btn-left-right:hover::after{
+    width: 50%;
+  }
+  
+  .btn-left-right::after{
+    content: '';
+    bottom: -2px;
+    background-color:black;
+    width: 0%;
+    height: 42px;
+    right: 0px;
+    position: absolute;
+    transition: all 0.25s;
+    z-index: -1;
+  }
+  
   
   

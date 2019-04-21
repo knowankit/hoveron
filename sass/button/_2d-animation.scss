@@ -1,4 +1,5 @@
 .btn-g{
+    border: none;
     background-color: gray;
     padding: 10px;
     height: 42px;
@@ -49,8 +50,168 @@
       animation-duration: 0.3s;
       animation-direction: alternate;
     }
+    &.btn-bounce-in:hover{
+        animation-name: bounce-in;
+        animation-iteration-count: 1;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+      }
+      &.btn-bounce-out:hover{
+        animation-name: bounce-out;
+        animation-iteration-count: 1;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+      }
+      &.btn-rotate:hover {
+        animation-name: rotate;
+        animation-duration:0.2s;
+        animation-fill-mode: forwards;
+      }
+      &.btn-rotate-grow:hover {
+        animation-name: rotate-grow;
+        animation-duration:0.2s;
+        animation-fill-mode: forwards;
+      }
+  }
+  .btn-float{
+    border: none;
+    padding: 10px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-float:hover{
+    transform: translatey(-5px)
   }
   
+  .btn-sink{
+    border: none;
+    padding: 10px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-sink:hover{
+    transform: translatey(5px)
+  }
+  
+.btn-bob{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-bob:hover{
+  animation-name: bob;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+.btn-hang{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-hang:hover{
+  animation-name: hang;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+.btn-skew{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-skew:hover{
+ transform: skew(-15deg);
+}
+
+.btn-wobble-skew{
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position:relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-wobble-skew:hover{
+  animation-name: wobble-skew;
+  animation-duration: 0.25s;
+  animation-iteration-count: 2;
+}
+
+.btn-forward{
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position:relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+  transition: all 0.25s;
+}
+.btn-forward:hover{
+  transform: translatex(10px);
+}
+.btn-backward{
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position:relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+  transition: all 0.25s;
+}
+.btn-backward:hover{
+  transform: translatex(-10px);
+}
+
+@keyframes wobble-skew{
+  0%{
+    transform: skew(0deg);
+  }
+  50%{
+    transform: skew(10deg);
+  }
+  100%{
+    transform: skew(-10deg);
+  }
+}
+@keyframes hang{
+  0% {
+    transform: translatey(2px)
+  }
+  50% {
+    transform: translatey(5px)
+  }
+   100% {
+    transform: translatey(3px)
+  }
+}
+@keyframes bob{
+  0% {
+    transform: translatey(-2px)
+  }
+  50% {
+    transform: translatey(-5px)
+  }
+   100% {
+    transform: translatey(-3px)
+  }
+}
   
   
   @keyframes pulse{
@@ -103,4 +264,47 @@
     }
   }
   
+  @keyframes bounce-in{
+    0%{
+     transform: scale(1);
+   }
+   
+   40%{
+     transform: scale(1.2);
+   }
+   80%{
+     transform: scale(1.1);
+   }
+   
+   100%{
+     transform: scale(1.2);
+   }
+ }
+ @keyframes bounce-out{
+    0%{
+     transform: scale(1);
+   }
+   
+   40%{
+     transform: scale(0.8);
+   }
+   80%{
+     transform: scale(0.9);
+   }
+   
+   100%{
+     transform: scale(0.8);
+   }
+ }
+
+ @keyframes rotate{
+    to {
+      transform: rotate(5deg);
+    }
+  }
   
+  @keyframes rotate-grow{
+    to {
+      transform: rotate(5deg) scale(1.1);
+    }
+  }
