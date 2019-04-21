@@ -256,29 +256,32 @@
   z-index: -1;
 }
 
-.btn-g {
+.btn-grow {
   border: none;
-  background-color: gray;
   padding: 10px;
   height: 42px;
   font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  display: inline-block;
 }
 
-.btn-g.btn-grow:hover {
+.btn-grow:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.btn-g.btn-shrink:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+.btn-pulse {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
-.btn-g.btn-pulse:hover {
+.btn-pulse:hover {
   -webkit-animation-name: pulse;
           animation-name: pulse;
   -webkit-animation-iteration-count: infinite;
@@ -289,7 +292,32 @@
           animation-direction: alternate;
 }
 
-.btn-g.btn-pulse-shrink:hover {
+.btn-shrink {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-shrink:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.btn-pulse-shrink {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-pulse-shrink:hover {
   -webkit-animation-name: pulse-shrink;
           animation-name: pulse-shrink;
   -webkit-animation-iteration-count: infinite;
@@ -300,7 +328,17 @@
           animation-direction: alternate;
 }
 
-.btn-g.btn-pulse-grow:hover {
+.btn-pulse-grow {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-pulse-grow:hover {
   -webkit-animation-name: pulse-grow;
           animation-name: pulse-grow;
   -webkit-animation-iteration-count: infinite;
@@ -311,7 +349,17 @@
           animation-direction: alternate;
 }
 
-.btn-g.btn-pop:hover {
+.btn-pop {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-pop:hover {
   -webkit-animation-name: pop;
           animation-name: pop;
   -webkit-animation-iteration-count: 1;
@@ -322,7 +370,17 @@
           animation-direction: alternate;
 }
 
-.btn-g.btn-push:hover {
+.btn-push {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-push:hover {
   -webkit-animation-name: push;
           animation-name: push;
   -webkit-animation-iteration-count: 1;
@@ -333,7 +391,17 @@
           animation-direction: alternate;
 }
 
-.btn-g.btn-bounce-in:hover {
+.btn-bounce-in {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-bounce-in:hover {
   -webkit-animation-name: bounce-in;
           animation-name: bounce-in;
   -webkit-animation-iteration-count: 1;
@@ -344,7 +412,17 @@
           animation-fill-mode: forwards;
 }
 
-.btn-g.btn-bounce-out:hover {
+.btn-bounce-out {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-bounce-out:hover {
   -webkit-animation-name: bounce-out;
           animation-name: bounce-out;
   -webkit-animation-iteration-count: 1;
@@ -355,7 +433,38 @@
           animation-fill-mode: forwards;
 }
 
-.btn-g.btn-rotate:hover {
+.btn-bounce-out {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-bounce-out:hover {
+  -webkit-animation-name: bounce-out;
+          animation-name: bounce-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.btn-rotate {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-rotate:hover {
   -webkit-animation-name: rotate;
           animation-name: rotate;
   -webkit-animation-duration: 0.2s;
@@ -364,7 +473,17 @@
           animation-fill-mode: forwards;
 }
 
-.btn-g.btn-rotate-grow:hover {
+.btn-rotate-grow {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-rotate-grow:hover {
   -webkit-animation-name: rotate-grow;
           animation-name: rotate-grow;
   -webkit-animation-duration: 0.2s;
@@ -811,6 +930,31 @@
     -webkit-transform: rotate(5deg) scale(1.1);
             transform: rotate(5deg) scale(1.1);
   }
+}
+
+.btn-shadow {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.btn-shadow::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  width: 100%;
+}
+
+.btn-shadow:hover::after {
+  -webkit-box-shadow: 0px 0px 4px 2px gray;
+          box-shadow: 0px 0px 4px 2px gray;
 }
 
 body {
