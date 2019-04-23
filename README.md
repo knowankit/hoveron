@@ -1,4 +1,4 @@
-# hoveron
+# hoveron by (https://knowankit.com)
 A css file to create basic button animation transition.
 
 ## Demo
