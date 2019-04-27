@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hover On</title>
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <!-- <link href="./pvt/sass/components.css" type="text/css" rel="stylesheet" /> -->
   <link href="./components.css" type="text/css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
+    <style>#forkongithub a{background:#ffcb08;color:black;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:black;color:#ffcb08;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:fixed;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/knowankit/hoveron">Fork me on GitHub</a></span>
   <div class="container">
-    <div class="card shadow mt-4">
+    <!--Underline Animation  -->
+    <div class="card shadow">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">Underline Animation</h5>
         <div class="mt-4">
@@ -32,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="card shadow mt-4">
+    <div class="card shadow">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">Fill Animation</h5>
         <div class="mt-4">
@@ -44,10 +45,13 @@
           <button class='btn-left-right'>Fill Left Right</button>
           <button class='btn-skew-left'>Fill Skew Left</button>
           <button class='btn-skew-right'>Fill Skew Right</button>
+          <button class="btn-cool-shine"> Diagonal shine</button>
         </div>
       </div>
     </div>
-    <div class="card shadow mt-4">
+
+    <!-- 2D Animation -->
+    <div class="card shadow">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">2D Animation</h5>
         <div class="mt-4">
@@ -73,7 +77,8 @@
         </div>
       </div>
     </div>
-    <div class="card shadow mt-4">
+    <!-- Shadow Card -->
+    <div class="card shadow">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">Shadow</h5>
         <div class="mt-4">
@@ -82,6 +87,17 @@
         </div>
       </div>
     </div>
+
+    <!-- Border Animation -->
+    <!-- <div class="card shadow">
+      <div class="card-body">
+        <h5 class="card-title text-center railway-heading">Border Animation</h5>
+        <div class="mt-4">
+          <button class='btn-shadow'>
+            Top Border</button>
+        </div>
+      </div>
+    </div> -->
   </div>
   <!-- <script src="./js/handlebars-v4.1.2.js"></script> -->
 </body>
