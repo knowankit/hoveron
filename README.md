@@ -1,12 +1,33 @@
-# hoveron by (https://knowankit.com)
-A css file to create basic button animation transition.
+# Hover-on.css
+Pure css button animation
 
-## Demo
+`hover-on.css` has creative animations and transitions for your projects. It's great to make your buttons look awesome.
 
-[Click here](https://hover-on.netlify.com/)
+## Installation
+Install via npm:
 
-### Upcoming
+`$ npm install hover-on`
 
-* CDN Link for the buttons
-* Component based button to make it easier to implement
-* New designs
+## Usage
+To use hover-on.css in your website, just add the stylesheet into your document's `<head>`, add the appropriate class to the button. That's it! You've got a animated button. Cool!
+
+```html
+<head>
+    <link rel="stylesheet" href="hover-on.min.css">
+</head>
+```
+or use a CDN hosted version by [CDNJS](htttps://knowankit.com)
+
+```html
+<head>
+  <link rel="stylesheet" href="https://hover-on.min.css">
+</head>
+```
+
+## Animations
+
+| Class Name    |               |       |
+| ------------- |:-------------:| -----:|
+|               |               |       |
+|               |               |       |
+|               |               |       |
