@@ -1,0 +1,416 @@
+$two-d-color: #0074D9;
+.btn-grow{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: $two-d-color;
+}
+.btn-grow:hover {
+  transform: scale(1.1);
+}
+
+.btn-pulse{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: $two-d-color;
+}
+.btn-pulse:hover {
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+.btn-shrink{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: $two-d-color;
+}
+.btn-shrink:hover {
+  transform: scale(0.9);
+}
+.btn-pulse-shrink{
+  border: none;
+  padding: 10px;
+  background-color: $two-d-color;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-pulse-shrink:hover {
+  animation-name: pulse-shrink;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+.btn-pulse-grow{
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-pulse-grow:hover {
+  animation-name: pulse-grow;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+.btn-pop{
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-pop:hover {
+  animation-name: pop;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+}
+.btn-push{
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-push:hover {
+  animation-name: push;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+}
+.btn-bounce-in{
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-bounce-in:hover {
+  animation-name: bounce-in;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.btn-bounce-out{
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-bounce-out:hover {
+  animation-name: bounce-out;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.btn-bounce-out{
+  border: none;
+  background-color: $two-d-color;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-bounce-out:hover {
+  animation-name: bounce-out;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.btn-rotate{
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-rotate:hover {
+  animation-name: rotate;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+.btn-rotate-grow{
+  border: none;
+  background-color: $two-d-color;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-rotate-grow:hover {
+  animation-name: rotate-grow;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+.btn-float {
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-float:hover {
+  transform: translatey(-5px);
+}
+
+.btn-sink {
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-sink:hover {
+  transform: translatey(5px);
+}
+
+.btn-bob {
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-bob:hover {
+  animation-name: bob;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+.btn-hang {
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-hang:hover {
+  animation-name: hang;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+.btn-skew {
+  background-color: $two-d-color;
+  border: none;
+  padding: 10px;
+  height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-skew:hover {
+  transform: skew(-15deg);
+}
+
+.btn-wobble-skew {
+  background-color: $two-d-color;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-wobble-skew:hover {
+  animation-name: wobble-skew;
+  animation-duration: 0.25s;
+  animation-iteration-count: 2;
+}
+
+.btn-forward {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-weight: bold;
+  color: black;
+  transition: all 0.25s;
+  background-color: $two-d-color;
+}
+.btn-forward:hover {
+  transform: translatex(10px);
+}
+.btn-backward {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background-color: $two-d-color;
+  font-weight: bold;
+  color: black;
+  transition: all 0.25s;
+}
+.btn-backward:hover {
+  transform: translatex(-10px);
+}
+
+@keyframes wobble-skew {
+  0% {
+    transform: skew(0deg);
+  }
+  50% {
+    transform: skew(10deg);
+  }
+  100% {
+    transform: skew(-10deg);
+  }
+}
+@keyframes hang {
+  0% {
+    transform: translatey(2px);
+  }
+  50% {
+    transform: translatey(5px);
+  }
+  100% {
+    transform: translatey(3px);
+  }
+}
+@keyframes bob {
+  0% {
+    transform: translatey(-2px);
+  }
+  50% {
+    transform: translatey(-5px);
+  }
+  100% {
+    transform: translatey(-3px);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-shrink {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse-grow {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes push {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pop {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes bounce-out {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(0.8);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes rotate-grow {
+  to {
+    transform: rotate(5deg) scale(1.1);
+  }
+}

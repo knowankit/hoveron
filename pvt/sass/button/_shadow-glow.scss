@@ -1,0 +1,23 @@
+.btn-shadow{
+    padding: 10px;
+    height: 42px;
+    cursor: pointer;
+    position:relative;
+    border: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.25s;
+    background-color: #01FF70;
+  }
+  .btn-shadow::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .btn-shadow:hover::after{
+    box-shadow: 0px 0px 4px 2px gray;
+  }
+  
