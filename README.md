@@ -20,7 +20,7 @@ or use a CDN hosted version by [CDNJS](htttps://knowankit.com)
 
 ```html
 <head>
-  <link rel="stylesheet" href="https://hover-on.min.css">
+  <link rel="stylesheet" href="">
 </head>
 ```
 
