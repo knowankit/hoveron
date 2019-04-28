@@ -1,8 +1,8 @@
 {
   "name": "hover-on",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A file containing basics of button animation",
-  "main": "components.css",
+  "main": "hover-on.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

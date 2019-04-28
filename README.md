@@ -16,7 +16,7 @@ To use hover-on.css in your website, just add the stylesheet into your document'
     <link rel="stylesheet" href="hover-on.css">
 </head>
 ```
-or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/components.css)
+or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/hover-on.css)
 
 ```html
 <head>
@@ -35,7 +35,7 @@ or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/compone
 | `btn-grow`       | `btn-shrink`           | `btn-pulse`         |
 | `btn-pulse-grow` | `btn-pulse-shrink`     | `btn-push`          |
 | `btn-pop`        | `btn-bounce-in`        | `btn-bounce-out`    |
-| `btn-rotate`     | `btn-rotate-grow`      | `btn-float`         | 
+| `btn-rotate`     | `btn-rotate-grow`      | `btn-float`         |
 | `btn-sink`       | `btn-bob`              | `btn-hang`          | 
 | `btn-skew`       | `btn-wobble-skew`      | `btn-forward`       | 
 | `btn-backward`   | `btn-shadow`           |                     | 

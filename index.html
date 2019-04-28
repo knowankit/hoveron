@@ -6,20 +6,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hover On</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="./source/sass/hover-on.css" type="text/css" rel="stylesheet" />
   <!-- <link href="./components.css" type="text/css" rel="stylesheet" /> -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-      <div class="container text-center">
-          <style>#forkongithub a{background:#ffcb08;color:black;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:black;color:#ffcb08;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:fixed;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/knowankit/hoveron">Fork me on GitHub</a></span>
+    <style>
+      #forkongithub a {
+        background: #ffcb08;
+        color: black;
+        text-decoration: none;
+        font-family: arial, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px 40px;
+        font-size: 1rem;
+        line-height: 2rem;
+        position: relative;
+        transition: 0.5s;
+      }
+    
+      #forkongithub a:hover {
+        background: black;
+        color: #ffcb08;
+      }
+    
+      #forkongithub a::before,
+      #forkongithub a::after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 1px;
+        left: 20px;
+        height: 1px;
+        background: #fff;
+      }
+    
+      #forkongithub a::after {
+        bottom: 1px;
+        top: auto;
+      }
+    
+      @media screen and (min-width:800px) {
+        #forkongithub {
+          position: fixed;
+          display: block;
+          top: -30px;
+          right: -145px;
+          width: 400px;
+          overflow: hidden;
+          height: 200px;
+          z-index: 9999;
+        }
+    
+        #forkongithub a {
+          width: 400px;
+          position: absolute;
+          top: 80px;
+          right: 0px;
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+        }
+      }
+    </style><span id="forkongithub"><a href="https://github.com/knowankit/hoveron">Fork me on GitHub</a></span>
 
+    <div class="container text-center">
+       
     <!--Underline Animation  -->
     <div class="card shadow">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">Underline Animation</h5>
-        <div class="mt-4">
+        <div class="margin">
           <button class='btn-underline margin'>
             Double
           </button>
@@ -34,10 +99,10 @@
         </div>
       </div>
     </div>
-    <div class="card shadow">
+    <div class="card shadow mt-4">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">Fill Animation</h5>
-        <div class="mt-4">
+        <div class="margin">
           <button class="btn-fill-left">Fill left</button>
           <button class="btn-fill-right">Fill Right</button>
           <button class="btn-fill-top">Fill Top</button>
@@ -52,38 +117,38 @@
     </div>
 
     <!-- 2D Animation -->
-    <div class="card shadow">
+    <div class="card shadow mt-4 ">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">2D Animation</h5>
-        <div class="mt-4">
-          <button class="btn-grow">Grow</button>
-          <button class="btn-shrink">Shrink</button>
-          <button class="btn-pulse">Pulse</button>
-          <button class="btn-pulse-grow">Pulse Grow</button>
-          <button class="btn-pulse-shrink">Pulse Shrink</button>
-          <button class="btn-push">Push</button>
-          <button class="btn-pop">Pop</button>
-          <button class="btn-bounce-in">Bounce In</button>
-          <button class="btn-bounce-out">Bounce Out</button>
-          <button class="btn-rotate">Rotate</button>
-          <button class="btn-rotate-grow">Rotate Grow</button>
-          <button class="btn-float">Float</button>
-          <button class="btn-sink">Sink</button>
-          <button class="btn-bob">Bob</button>
-          <button class="btn-hang">Hang</button>
-          <button class="btn-skew">Skew</button>
-          <button class='btn-wobble-skew'>Wobble Skew</button>
-          <button class='btn-forward'>Forward</button>
-          <button class='btn-backward'>Backward</button>
+        <div class="margin">
+          <button class=" btn btn-warning btn-grow mt-2">Grow</button>
+          <button class=" btn btn-light btn-shrink mt-2">Shrink</button>
+          <button class="btn btn-warning btn-pulse mt-2">Pulse</button>
+          <button class="btn btn-primary btn-pulse-grow mt-2">Pulse Grow</button>
+          <button class="btn btn-info btn-pulse-shrink mt-2">Pulse Shrink</button>
+          <button class="btn btn-secondary btn-push mt-2">Push</button>
+          <button class="btn btn-warning btn-pop mt-2">Pop</button>
+          <button class="btn btn-danger btn-bounce-in mt-2">Bounce In</button>
+          <button class="btn btn-warning btn-bounce-out mt-2">Bounce Out</button>
+          <button class="btn btn-light btn-rotate mt-2">Rotate</button>
+          <button class="btn btn-secondary btn-rotate-grow mt-2">Rotate Grow</button>
+          <button class="btn btn-danger btn-float mt-2">Float</button>
+          <button class="btn btn-warning btn-sink mt-2">Sink</button>
+          <button class="btn btn-primary btn-bob mt-2">Bob</button>
+          <button class="btn btn-info btn-hang mt-2">Hang</button>
+          <button class="btn btn-light btn-skew mt-2">Skew</button>
+          <button class='btn btn-danger btn-wobble-skew mt-2'>Wobble Skew</button>
+          <button class='btn btn-primary btn-forward mt-2'>Forward</button>
+          <button class='btn btn-info btn-backward mt-2'>Backward</button>
         </div>
       </div>
     </div>
     <!-- Shadow Card -->
-    <div class="card shadow">
+    <div class="card shadow mt-4">
       <div class="card-body">
         <h5 class="card-title text-center railway-heading">Shadow</h5>
-        <div class="mt-4">
-          <button class='btn-shadow'>
+        <div class="margin">
+          <button class='btn btn-light btn-shadow'>
             Shadow</button>
         </div>
       </div>

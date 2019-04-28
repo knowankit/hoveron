@@ -6,7 +6,7 @@
   background-color: transparent;
   position: relative;
   cursor: pointer;
-  color: #FFDC00;
+  color: black;
 }
 
 .btn-underline::after,
@@ -22,13 +22,13 @@
 .btn-underline::before {
   top: -5px;
   left: 0px;
-  border-top: 2px solid #FFDC00;
+  border-top: 2px solid black;
 }
 
 .btn-underline::after {
   bottom: -5px;
   right: 0px;
-  border-bottom: 2px solid #FFDC00;
+  border-bottom: 2px solid black;
 }
 
 .btn-underline:hover::before,
@@ -44,7 +44,7 @@
   background-color: transparent;
   position: relative;
   cursor: pointer;
-  color: #FFDC00;
+  color: black;
 }
 
 .btn-underline-bottom::after {
@@ -60,7 +60,7 @@
 .btn-underline-bottom::after {
   bottom: -5px;
   left: 0px;
-  border-bottom: 2px solid #FFDC00;
+  border-bottom: 2px solid black;
 }
 
 .btn-underline-bottom:hover::after {
@@ -75,7 +75,7 @@
   background-color: transparent;
   position: relative;
   cursor: pointer;
-  color: #FFDC00;
+  color: black;
 }
 
 .btn-underline-top::before {
@@ -91,7 +91,7 @@
 .btn-underline-top::before {
   top: -5px;
   left: 0px;
-  border-bottom: 2px solid #FFDC00;
+  border-bottom: 2px solid black;
 }
 
 .btn-underline-top:hover::before {
@@ -100,13 +100,14 @@
 
 .btn-fill-left {
   background-color: transparent;
-  padding: 10px 20px;
   height: 42px;
   font-weight: bold;
   position: relative;
   cursor: pointer;
   border: 2px solid #FF4136;
-  color: white;
+  color: black;
+  z-index: 1;
+  text-align: center;
 }
 
 .btn-fill-left::before {
@@ -120,22 +121,23 @@
   z-index: -1;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  color: white;
+  color: black;
 }
 
 .btn-fill-left:hover::before {
   width: 100%;
+  color: red !important;
 }
 
 .btn-fill-right {
   background-color: transparent;
-  padding: 10px 20px;
   height: 42px;
   font-weight: bold;
   position: relative;
   cursor: pointer;
   border: 2px solid #FF4136;
-  color: white;
+  color: black;
+  z-index: 1;
 }
 
 .btn-fill-right::before {
@@ -152,7 +154,7 @@
 }
 
 .btn-fill-right:hover {
-  color: white;
+  color: black;
 }
 
 .btn-fill-right:hover::before {
@@ -161,13 +163,13 @@
 
 .btn-fill-top {
   background-color: transparent;
-  padding: 10px 20px;
   height: 42px;
   font-weight: bold;
   position: relative;
   cursor: pointer;
   border: 2px solid #FF4136;
-  color: white;
+  color: black;
+  z-index: 1;
 }
 
 .btn-fill-top::before {
@@ -190,13 +192,13 @@
 
 .btn-fill-bottom {
   background-color: transparent;
-  padding: 10px 20px;
   height: 42px;
   font-weight: bold;
   position: relative;
   cursor: pointer;
   border: 2px solid #FF4136;
-  color: white;
+  color: black;
+  z-index: 1;
 }
 
 .btn-fill-bottom::before {
@@ -217,18 +219,18 @@
 }
 
 .btn-top-bottom {
-  padding: 10px;
   height: 42px;
   cursor: pointer;
   position: relative;
   border: 2px solid #FF4136;
   background-color: transparent;
   font-weight: bold;
-  color: white;
+  color: black;
+  z-index: 1;
 }
 
 .btn-top-bottom:hover {
-  color: white;
+  color: black;
 }
 
 .btn-top-bottom::before {
@@ -263,18 +265,18 @@
 }
 
 .btn-left-right {
-  padding: 10px;
   height: 42px;
   cursor: pointer;
   position: relative;
   border: 2px solid #FF4136;
   background-color: transparent;
   font-weight: bold;
-  color: white;
+  color: black;
+  z-index: 1;
 }
 
 .btn-left-right:hover {
-  color: white;
+  color: black;
 }
 
 .btn-left-right::before {
@@ -310,8 +312,8 @@
 
 .btn-skew-left {
   border: none;
-  padding: 10px 10px;
-  color: white;
+  color: black;
+  z-index: 1;
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #FF4136;
@@ -350,8 +352,7 @@
 
 .btn-skew-right {
   border: none;
-  padding: 10px 10px;
-  color: white;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #FF4136;
@@ -359,6 +360,7 @@
   background-color: transparent;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .btn-skew-right::after, .btn-skew-right:before {
@@ -390,8 +392,7 @@
 
 .btn-cool-shine {
   border: none;
-  padding: 10px;
-  color: white;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #FF4136;
@@ -399,6 +400,7 @@
   background-color: transparent;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .btn-cool-shine:before {
@@ -442,7 +444,6 @@
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  background-color: #0074D9;
 }
 
 .btn-grow:hover {
@@ -458,7 +459,6 @@
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  background-color: #0074D9;
 }
 
 .btn-pulse:hover {
@@ -480,7 +480,6 @@
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  background-color: #0074D9;
 }
 
 .btn-shrink:hover {
@@ -491,7 +490,6 @@
 .btn-pulse-shrink {
   border: none;
   padding: 10px;
-  background-color: #0074D9;
   height: 42px;
   font-weight: bold;
   cursor: pointer;
@@ -511,7 +509,6 @@
 }
 
 .btn-pulse-grow {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -533,7 +530,6 @@
 }
 
 .btn-pop {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -555,7 +551,6 @@
 }
 
 .btn-push {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -577,7 +572,6 @@
 }
 
 .btn-bounce-in {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -599,7 +593,6 @@
 }
 
 .btn-bounce-out {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -622,7 +615,6 @@
 
 .btn-bounce-out {
   border: none;
-  background-color: #0074D9;
   padding: 10px;
   height: 42px;
   font-weight: bold;
@@ -643,7 +635,6 @@
 }
 
 .btn-rotate {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -664,7 +655,6 @@
 
 .btn-rotate-grow {
   border: none;
-  background-color: #0074D9;
   padding: 10px;
   height: 42px;
   font-weight: bold;
@@ -683,7 +673,6 @@
 }
 
 .btn-float {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -699,7 +688,6 @@
 }
 
 .btn-sink {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -715,7 +703,6 @@
 }
 
 .btn-bob {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -735,7 +722,6 @@
 }
 
 .btn-hang {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -755,7 +741,6 @@
 }
 
 .btn-skew {
-  background-color: #0074D9;
   border: none;
   padding: 10px;
   height: 42px;
@@ -771,7 +756,6 @@
 }
 
 .btn-wobble-skew {
-  background-color: #0074D9;
   padding: 10px;
   height: 42px;
   cursor: pointer;
@@ -800,7 +784,6 @@
   color: black;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  background-color: #0074D9;
 }
 
 .btn-forward:hover {
@@ -814,7 +797,6 @@
   cursor: pointer;
   position: relative;
   border: none;
-  background-color: #0074D9;
   font-weight: bold;
   color: black;
   -webkit-transition: all 0.25s;
@@ -1140,7 +1122,6 @@
   color: black;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  background-color: #01FF70;
 }
 
 .btn-shadow::after {
@@ -1156,41 +1137,14 @@
           box-shadow: 0px 0px 4px 2px gray;
 }
 
-body {
-  background-color: #282a36;
-}
-
-.container {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.card {
-  border: 1px solid #111111;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.shadow {
-  -webkit-box-shadow: 3px 3px 5px 6px #111111;
-  box-shadow: 0px 3px 5px 5px #111111;
-}
-
 .railway-heading {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
-  color: white;
+  color: blacks;
 }
 
-button {
-  margin-right: 25px;
-  margin-top: 20px;
+.margin {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=hover-on.css.map */

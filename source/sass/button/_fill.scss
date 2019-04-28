@@ -1,13 +1,14 @@
 
   .btn-fill-left{
     background-color: transparent;
-    padding: 10px 20px;
     height: 42px;
     font-weight: bold;
     position: relative;
     cursor: pointer;
     border: 2px solid #FF4136;
-    color: white;
+    color: black;
+    z-index: 1;
+    text-align: center;
   }
   .btn-fill-left::before{
     content: '';
@@ -19,22 +20,23 @@
     left: 0px;
     z-index:-1;
     transition: all 0.25s;
-    color: white;
+    color: black;
   }
   .btn-fill-left:hover::before{
     width:100%;
+    color: red !important;
   }
   
   //Fill right
   .btn-fill-right{
      background-color: transparent;
-    padding: 10px 20px;
     height: 42px;
     font-weight: bold;
     position: relative;
     cursor: pointer;
     border: 2px solid #FF4136;
-    color: white;
+    color: black;
+    z-index: 1;
   }
   .btn-fill-right::before{
     content: '';
@@ -48,7 +50,7 @@
      transition: all 0.25s;
   }
   .btn-fill-right:hover{
-    color: white;
+    color: black;
   }
   .btn-fill-right:hover::before{
     width:100%;
@@ -56,14 +58,14 @@
   
   // Fill top
   .btn-fill-top{
-     background-color: transparent;
-    padding: 10px 20px;
+    background-color: transparent;
     height: 42px;
     font-weight: bold;
     position: relative;
     cursor: pointer;
     border: 2px solid #FF4136;
-    color: white;
+    color: black;
+    z-index: 1;
   }
   .btn-fill-top::before{
     content: '';
@@ -85,13 +87,13 @@
   
   .btn-fill-bottom{
      background-color: transparent;
-    padding: 10px 20px;
     height: 42px;
     font-weight: bold;
     position: relative;
     cursor: pointer;
     border: 2px solid #FF4136;
-    color: white;
+    color: black;
+    z-index: 1;
   }
   .btn-fill-bottom::before{
     content: '';
@@ -111,17 +113,17 @@
   //Fill Top bottom
 
   .btn-top-bottom{
-    padding: 10px;
     height: 42px;
     cursor: pointer;
     position:relative;
     border: 2px solid #FF4136;
     background-color: transparent;
     font-weight: bold;
-    color: white;
+    color: black;
+    z-index: 1;
   }
   .btn-top-bottom:hover{
-    color: white;
+    color: black;
   }
   .btn-top-bottom::before{
     content: '';
@@ -155,17 +157,17 @@
   //Fill left right
 
   .btn-left-right{
-    padding: 10px;
     height: 42px;
     cursor: pointer;
     position:relative;
     border: 2px solid #FF4136;
     background-color: transparent;
     font-weight: bold;
-    color: white;
+    color: black;
+    z-index: 1;
   }
   .btn-left-right:hover{
-    color: white;
+    color: black;
   }
   .btn-left-right::before{
     content: '';
@@ -198,8 +200,8 @@
   
   .btn-skew-left{
   border: none;
-  padding: 10px 10px;
-  color: white;
+  color: black;
+  z-index: 1;
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #FF4136;
@@ -238,8 +240,7 @@
 // Right
 .btn-skew-right{
   border: none;
-  padding: 10px 10px;
-  color: white;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #FF4136;
@@ -247,6 +248,7 @@
   background-color: transparent;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .btn-skew-right::after, .btn-skew-right:before{
@@ -278,8 +280,7 @@
 
 .btn-cool-shine{
   border: none;
-  padding: 10px;
-  color: white;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #FF4136;
@@ -287,6 +288,7 @@
   background-color: transparent;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .btn-cool-shine:before{

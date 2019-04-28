@@ -7,7 +7,7 @@
     background-color: transparent;
     position: relative;
     cursor: pointer;
-    color: #FFDC00;
+    color: black;
   }
   .btn-underline::after,
   .btn-underline::before {
@@ -21,13 +21,13 @@
   .btn-underline::before {
     top: -5px;
     left: 0px;
-    border-top: 2px solid #FFDC00;
+    border-top: 2px solid black;
   }
   
   .btn-underline::after {
     bottom: -5px;
     right: 0px;
-    border-bottom: 2px solid #FFDC00;
+    border-bottom: 2px solid black;
   }
   .btn-underline:hover::before,
   .btn-underline:hover::after {
@@ -43,7 +43,7 @@
     background-color: transparent;
     position: relative;
     cursor: pointer;
-    color: #FFDC00;
+    color: black;
   }
   .btn-underline-bottom::after {
     position: absolute;
@@ -57,7 +57,7 @@
   .btn-underline-bottom::after {
     bottom: -5px;
     left: 0px;
-    border-bottom: 2px solid #FFDC00;
+    border-bottom: 2px solid black;
   }
   .btn-underline-bottom:hover::after {
     width: 100%;
@@ -74,7 +74,7 @@
     background-color: transparent;
     position: relative;
     cursor: pointer;
-    color: #FFDC00;
+    color: black;
   }
   .btn-underline-top::before {
     position: absolute;
@@ -88,7 +88,7 @@
   .btn-underline-top::before {
     top: -5px;
     left: 0px;
-    border-bottom: 2px solid #FFDC00;
+    border-bottom: 2px solid black;
   }
   .btn-underline-top:hover::before {
     width: 100%;

@@ -1,35 +1,37 @@
-body{
-background-color: #282a36;
-}
-.container {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.text-center {
-    text-align: center;
-}
-.card {
-    border: 1px solid #111111;
-    margin-bottom: 100px;
-    padding-bottom: 50px;
-    border-radius: 5px;
-    text-align: center; 
-}
+// body{
+// background-color: #282a36;
+// }
+// .container {
+//     width: 80%;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+// .text-center {
+//     text-align: center;
+// }
+// .card {
+//     margin-bottom: 100px;
+//     padding-bottom: 50px;
+// }
 
-.shadow{
-    -moz-box-shadow:    3px 3px 5px 6px #111111;
-    -webkit-box-shadow: 3px 3px 5px 6px #111111;
-    box-shadow:         0px 3px 5px 5px #111111;
-}
+// .shadow{
+//     -moz-box-shadow:    3px 3px 5px 6px #111111;
+//     -webkit-box-shadow: 3px 3px 5px 6px #111111;
+//     box-shadow:         0px 3px 5px 5px #111111;
+// }
 
 .railway-heading {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
-    color: white;
+    color: blacks;
 }
 
-button{
-    margin-right: 25px;
-    margin-top: 20px;
+// button{
+//     margin-right: 25px;
+//     margin-top: 20px;
+// }
+
+.margin{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
