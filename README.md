@@ -16,7 +16,7 @@ To use hover-on.css in your website, just add the stylesheet into your document'
     <link rel="stylesheet" href="hover-on.min.css">
 </head>
 ```
-or use a CDN hosted version by [CDNJS](htttps://knowankit.com)
+or use a CDN version by [CDNJS](https://cdn.jsdelivr.net/npm/hover-on/components.css)
 
 ```html
 <head>
