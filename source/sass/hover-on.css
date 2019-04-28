@@ -1147,4 +1147,16 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+button {
+  margin-right: 20px;
+  margin-top: 20px;
+  color: black !important;
+}
+
+button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=hover-on.css.map */

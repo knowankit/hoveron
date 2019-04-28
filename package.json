@@ -1,6 +1,6 @@
 {
   "name": "hover-on",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A file containing basics of button animation",
   "main": "hover-on.css",
   "scripts": {
