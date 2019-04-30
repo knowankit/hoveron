@@ -1,0 +1,18 @@
+.btn-rotate-grow{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-rotate-grow:hover {
+  animation-name: rotate-grow;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate-grow {
+  to {
+    transform: rotate(5deg) scale(1.1);
+  }
+}

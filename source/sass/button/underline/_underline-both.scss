@@ -1,0 +1,35 @@
+
+  .btn-underline{
+    border: none;
+    padding: 10px 20px;
+    height: 42px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    color: black;
+  }
+  .btn-underline::after,
+  .btn-underline::before {
+    content:'';
+    transition: all 0.25s;
+    width: 20px;
+    position:absolute;
+    border: 0 solid transparent;
+  }
+  
+  .btn-underline::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid black;
+  }
+  
+  .btn-underline::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid black;
+  }
+  .btn-underline:hover::before,
+  .btn-underline:hover::after {
+    width: 100%;
+  }

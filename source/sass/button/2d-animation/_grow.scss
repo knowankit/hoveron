@@ -1,0 +1,8 @@
+.btn-grow{
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-grow:hover {
+  transform: scale(1.1);
+}

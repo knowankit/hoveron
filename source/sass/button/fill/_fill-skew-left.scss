@@ -1,0 +1,40 @@
+
+  
+  .btn-skew-left{
+  border: none;
+  color: black;
+  z-index: 1;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #FF4136;
+  height: 42px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-skew-left::after, .btn-skew-left:before{
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 62px;
+  width: 0%;
+  transition: all 0.4s;
+  z-index: -1;
+  transform: skew(-45deg);
+  
+}
+
+.btn-skew-left::before{
+  left: 49%;
+  top: -2px;
+}
+
+.btn-skew-left::after {
+  right: 50%;
+  top: -2px;
+}
+
+.btn-skew-left:hover::after,.btn-skew-left:hover::before{
+  width: 100%;
+}

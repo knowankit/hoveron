@@ -1,0 +1,43 @@
+  
+  //Fill left right
+  .btn-left-right{
+    height: 42px;
+    cursor: pointer;
+    position:relative;
+    border: 2px solid #FF4136;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+    z-index: 1;
+  }
+  .btn-left-right:hover{
+    color: black;
+  }
+  .btn-left-right::before{
+    content: '';
+    position: absolute;
+    background-color: #FF4136;
+    height:42px;
+    top: -2px;
+    left: 0px;
+    width: 0%; 
+    z-index: -1;
+    transition: all 0.25s;
+  }
+  
+  .btn-left-right:hover::before,
+  .btn-left-right:hover::after{
+    width: 50%;
+  }
+  
+  .btn-left-right::after{
+    content: '';
+    bottom: -2px;
+    background-color:#FF4136;
+    width: 0%;
+    height: 42px;
+    right: 0px;
+    position: absolute;
+    transition: all 0.25s;
+    z-index: -1;
+  }

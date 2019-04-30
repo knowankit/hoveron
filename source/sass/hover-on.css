@@ -101,18 +101,16 @@
 .btn-fill-left {
   background-color: transparent;
   height: 42px;
-  font-weight: bold;
   position: relative;
   cursor: pointer;
-  border: 2px solid #FF4136;
+  border: 2px solid #ffc107;
   color: black;
   z-index: 1;
-  text-align: center;
 }
 
 .btn-fill-left::before {
   content: '';
-  background-color: #FF4136;
+  background-color: #ffc107;
   height: inherit;
   position: absolute;
   width: 0%;
@@ -438,9 +436,6 @@
 
 .btn-grow {
   border: none;
-  padding: 10px;
-  height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -455,7 +450,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -476,7 +470,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -491,7 +484,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -512,7 +504,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -533,7 +524,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -554,7 +544,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -575,7 +564,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -596,7 +584,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -617,7 +604,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -638,7 +624,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -657,7 +642,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -676,7 +660,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -691,7 +674,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -706,7 +688,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -725,7 +706,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -744,7 +724,6 @@
   border: none;
   padding: 10px;
   height: 42px;
-  font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -761,7 +740,6 @@
   cursor: pointer;
   position: relative;
   border: none;
-  font-weight: bold;
   color: black;
 }
 
@@ -780,7 +758,6 @@
   cursor: pointer;
   position: relative;
   border: none;
-  font-weight: bold;
   color: black;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -797,7 +774,6 @@
   cursor: pointer;
   position: relative;
   border: none;
-  font-weight: bold;
   color: black;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;

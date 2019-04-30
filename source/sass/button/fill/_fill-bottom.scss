@@ -1,0 +1,25 @@
+// Fill bottom
+  .btn-fill-bottom{
+     background-color: transparent;
+    height: 42px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #FF4136;
+    color: black;
+    z-index: 1;
+  }
+  .btn-fill-bottom::before{
+    content: '';
+    background-color: #FF4136;
+    height: 0%;
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    right: 0px;
+    z-index:-1;
+     transition: all 0.25s;
+  }
+  .btn-fill-bottom:hover::before{
+    height:100%;
+  }

@@ -1,0 +1,29 @@
+
+  .btn-fill-left{
+    background-color: transparent;
+    height: 42px;
+    // font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #ffc107;
+    color: black;
+    z-index: 1;
+    // text-align: center;
+  }
+  .btn-fill-left::before{
+    content: '';
+    background-color: #ffc107;
+    height: inherit;
+    position: absolute;
+    width: 0%;
+    top:-2px;
+    left: 0px;
+    z-index:-1;
+    transition: all 0.25s;
+    color: black;
+  }
+  .btn-fill-left:hover::before{
+    width:100%;
+    color: red !important;
+  }
+  

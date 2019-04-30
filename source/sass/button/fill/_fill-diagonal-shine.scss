@@ -1,0 +1,36 @@
+
+.btn-cool-shine{
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #FF4136;
+  height: 42px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-cool-shine:before{
+  content: '';
+  position: absolute;
+  background-color: #FF4136;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  transform: skew(45deg);
+}
+
+.btn-cool-shine:hover::before{
+  animation-name: shine;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shine{
+  to {
+    left: 150%;
+  }
+}

@@ -1,0 +1,24 @@
+.btn-hang {
+  border: none;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+}
+.btn-hang:hover {
+  animation-name: hang;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes hang {
+  0% {
+    transform: translatey(2px);
+  }
+  50% {
+    transform: translatey(5px);
+  }
+  100% {
+    transform: translatey(3px);
+  }
+}
