@@ -1,11 +1,11 @@
-.btn-pop{
+.pop{
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-pop:hover {
+.pop:hover {
   animation-name: pop;
   animation-iteration-count: 1;
   animation-duration: 0.3s;

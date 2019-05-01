@@ -1,11 +1,11 @@
-.btn-pulse-grow{
+.pulse-grow{
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-pulse-grow:hover {
+.pulse-grow:hover {
   animation-name: pulse-grow;
   animation-iteration-count: infinite;
   animation-duration: 0.5s;

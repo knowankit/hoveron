@@ -1,4 +1,4 @@
-.btn-wobble-skew {
+.wobble-skew {
   padding: 10px;
   height: 42px;
   cursor: pointer;
@@ -7,7 +7,7 @@
   color: black;
 }
 
-.btn-wobble-skew:hover {
+.wobble-skew:hover {
   animation-name: wobble-skew;
   animation-duration: 0.25s;
   animation-iteration-count: 2;

@@ -1,11 +1,11 @@
-.btn-rotate{
+.rotate{
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-rotate:hover {
+.rotate:hover {
   animation-name: rotate;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;

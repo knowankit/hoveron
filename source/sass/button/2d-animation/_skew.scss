@@ -1,10 +1,10 @@
-.btn-skew {
+.skew {
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.3s;
 }
-.btn-skew:hover {
+.skew:hover {
   transform: skew(-15deg);
 }

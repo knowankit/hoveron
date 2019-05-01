@@ -26,19 +26,19 @@ or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/hover-o
 
 ## Animations
 
-| Class Name       |                        |                     |
-| ---------------  |:---------------------: | ------------------: |
-| `btn-underline`  | `btn-underline-bottom` | `btn-underline-top` |
-| `btn-fill-left`  | `btn-fill-right`       | `btn-fill-top`      |
-| `btn-fill-bottom`| `btn-top-bottom`       | `btn-left-right`    |
-| `btn-skew-left`  | `btn-skew-right`       | `btn-cool-shine`    |
-| `btn-grow`       | `btn-shrink`           | `btn-pulse`         |
-| `btn-pulse-grow` | `btn-pulse-shrink`     | `btn-push`          |
-| `btn-pop`        | `btn-bounce-in`        | `btn-bounce-out`    |
-| `btn-rotate`     | `btn-rotate-grow`      | `btn-float`         |
-| `btn-sink`       | `btn-bob`              | `btn-hang`          | 
-| `btn-skew`       | `btn-wobble-skew`      | `btn-forward`       | 
-| `btn-backward`   | `btn-shadow`           |                     | 
+| Class Name       |                    |                 |
+| --------------   |:-----------------: | --------------: |
+| `both-line`      | `bottom-line`      | `top-line`      |
+| `fill-left`      | `fill-right`       | `fill-top`      |
+| `fill-bottom`    | `fill-both`        | `fill-both2`    |
+| `fill-skew-left` | `fill-skew-right`  | `shine`         |
+| `grow`           | `shrink`           | `pulse`         |
+| `pulse-grow`     | `pulse-shrink`     | `push`          |
+| `pop`            | `bounce-in`        | `bounce-out`    |
+| `rotate`         | `rotate-grow`      | `float`         |
+| `sink`           | `bob`              | `hang`          | 
+| `skew`           | `wobble-skew`      | `forward`       | 
+| `backward`       | `shadow`           |                 | 
 
 ## Demo
 

@@ -1,11 +1,11 @@
-.btn-pulse-shrink{
+.pulse-shrink{
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-pulse-shrink:hover {
+.pulse-shrink:hover {
   animation-name: pulse-shrink;
   animation-iteration-count: infinite;
   animation-duration: 0.5s;

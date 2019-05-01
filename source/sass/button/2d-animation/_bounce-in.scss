@@ -1,11 +1,11 @@
-.btn-bounce-in{
+.bounce-in{
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-bounce-in:hover {
+.bounce-in:hover {
   animation-name: bounce-in;
   animation-iteration-count: 1;
   animation-duration: 0.3s;

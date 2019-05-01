@@ -1,10 +1,10 @@
-.btn-bob {
+.bob {
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
 }
-.btn-bob:hover {
+.bob:hover {
   animation-name: bob;
   animation-iteration-count: infinite;
   animation-duration: 1s;

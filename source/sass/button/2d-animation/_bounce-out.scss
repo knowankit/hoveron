@@ -1,11 +1,11 @@
-.btn-bounce-out{
+.bounce-out{
   border: none;
   padding: 10px;
   height: 42px;
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn-bounce-out:hover {
+.bounce-out:hover {
   animation-name: bounce-out;
   animation-iteration-count: 1;
   animation-duration: 0.3s;
