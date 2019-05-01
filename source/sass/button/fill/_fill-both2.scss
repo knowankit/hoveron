@@ -1,0 +1,186 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/mixins";
+  
+// primary
+  .fill-both2-primary{
+    @include fill-both2;
+    border: 2px solid get-color("primary");
+  }
+  .fill-both2-primary:hover{
+    color: black;
+  }
+  .fill-both2-primary::before{
+    @include fill-both2-before;
+    background-color: get-color("primary");
+  }
+  
+  .fill-both2-primary:hover::before,
+  .fill-both2-primary:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-primary::after{
+    @include fill-both2-after;
+    background-color: get-color("primary");
+  }
+
+  // warning
+  .fill-both2-warning{
+    @include fill-both2;
+    border: 2px solid get-color("warning");
+  }
+  .fill-both2-warning:hover{
+    color: black;
+  }
+  .fill-both2-warning::before{
+    @include fill-both2-before;
+    background-color: get-color("warning");
+  }
+  
+  .fill-both2-warning:hover::before,
+  .fill-both2-warning:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-warning::after{
+    @include fill-both2-after;
+    background-color: get-color("warning");
+  }
+
+  // danger
+.fill-both2-danger{
+    @include fill-both2;
+    border: 2px solid get-color("danger");
+  }
+  .fill-both2-danger:hover{
+    color: black;
+  }
+  .fill-both2-danger::before{
+    @include fill-both2-before;
+    background-color: get-color("danger");
+  }
+  
+  .fill-both2-danger:hover::before,
+  .fill-both2-danger:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-danger::after{
+    @include fill-both2-after;
+    background-color: get-color("danger");
+  }
+
+  // success
+  .fill-both2-success{
+    @include fill-both2;
+    border: 2px solid get-color("success");
+  }
+  .fill-both2-success:hover{
+    color: black;
+  }
+  .fill-both2-success::before{
+    @include fill-both2-before;
+    background-color: get-color("success");
+  }
+  
+  .fill-both2-success:hover::before,
+  .fill-both2-success:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-success::after{
+    @include fill-both2-after;
+    background-color: get-color("success");
+  }
+
+  // info
+.fill-both2-info{
+    @include fill-both2;
+    border: 2px solid get-color("info");
+  }
+  .fill-both2-info:hover{
+    color: black;
+  }
+  .fill-both2-info::before{
+    @include fill-both2-before;
+    background-color: get-color("info");
+  }
+  
+  .fill-both2-info:hover::before,
+  .fill-both2-info:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-info::after{
+    @include fill-both2-after;
+    background-color: get-color("info");
+  }
+
+  // secondary
+  .fill-both2-secondary{
+    @include fill-both2;
+    border: 2px solid get-color("secondary");
+  }
+  .fill-both2-secondary:hover{
+    color: black;
+  }
+  .fill-both2-secondary::before{
+    @include fill-both2-before;
+    background-color: get-color("secondary");
+  }
+  
+  .fill-both2-secondary:hover::before,
+  .fill-both2-secondary:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-secondary::after{
+    @include fill-both2-after;
+    background-color: get-color("primary");
+  }
+
+  // light
+  .fill-both2-light{
+    @include fill-both2;
+    border: 2px solid get-color("light");
+  }
+  .fill-both2-light:hover{
+    color: black;
+  }
+  .fill-both2-light::before{
+    @include fill-both2-before;
+    background-color: get-color("light");
+  }
+  
+  .fill-both2-light:hover::before,
+  .fill-both2-light:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-light::after{
+    @include fill-both2-after;
+    background-color: get-color("light");
+  }
+
+  // dark
+  .fill-both2-dark{
+    @include fill-both2;
+    border: 2px solid get-color("dark");
+  }
+  .fill-both2-dark:hover{
+    color: black;
+  }
+  .fill-both2-dark::before{
+    @include fill-both2-before;
+    background-color: get-color("dark");
+  }
+  
+  .fill-both2-dark:hover::before,
+  .fill-both2-dark:hover::after{
+    width: 50%;
+  }
+  
+  .fill-both2-dark::after{
+    @include fill-both2-after;
+    background-color: get-color("dark");
+  }

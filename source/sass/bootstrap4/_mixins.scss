@@ -1,0 +1,149 @@
+
+// mixins for fill-left
+
+@mixin fill-left {
+    background-color: transparent;
+    height: 42px;
+    position: relative;
+    cursor: pointer;
+    // color: black;
+    z-index: 1;
+}
+
+@mixin fill-left-before {
+    content: '';
+    height: inherit;
+    position: absolute;
+    width: 0%;
+    top:-2px;
+    left: 0px;
+    z-index:-1;
+    transition: all 0.25s;
+}
+
+// mixins for right
+
+@mixin fill-right {
+    background-color: transparent;
+    height: 42px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@mixin fill-right-before {
+    content: '';
+    height: inherit;
+    position: absolute;
+    width: 0%;
+    top:-2px;
+    right: 0px;
+    z-index:-1;
+    transition: all 0.25s;
+}
+
+// mixins for top
+
+@mixin fill-top {
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+
+@mixin fill-top-before {
+    content: '';
+    height: 0%;
+    position: absolute;
+    width: 100%;
+    top:-2px;
+    right: 0px;
+    z-index:-1;
+    transition: all 0.25s;
+}
+
+// mixins for bottom
+
+@mixin fill-bottom {
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+
+@mixin fill-bottom-before {
+    content: '';
+    height: 0%;
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    right: 0px;
+    z-index:-1;
+    transition: all 0.25s;
+}
+
+// fill-both
+
+@mixin fill-both {
+    height: 42px;
+    cursor: pointer;
+    position:relative;
+    background-color: transparent;
+    z-index: 1;
+}
+
+@mixin fill-both-before {
+    content: '';
+    position: absolute;
+    height:0px;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+    z-index: -1;
+    transition: all 0.25s;
+}
+
+@mixin fill-both-after {
+    content: '';
+    bottom:0px;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    position: absolute;
+    transition: all 0.25s;
+    z-index: -1;
+}
+
+// fill both2
+
+@mixin fill-both2 {
+    cursor: pointer;
+    position:relative;
+    background-color: transparent;
+    z-index: 1;
+    overflow: hidden;
+}
+
+@mixin fill-both2-before {
+    content: '';
+    position: absolute;
+    height:42px;
+    top: -2px;
+    left: 0px;
+    width: 0%; 
+    z-index: -1;
+    transition: all 0.25s;
+}
+
+@mixin fill-both2-after {
+    content: '';
+    bottom: -2px;
+    width: 0%;
+    height: 42px;
+    right: 0px;
+    position: absolute;
+    transition: all 0.25s;
+    z-index: -1;
+}

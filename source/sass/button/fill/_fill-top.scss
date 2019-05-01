@@ -1,29 +1,82 @@
-
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/mixins";
   
-  // Fill top
-  .btn-fill-top{
-    background-color: transparent;
-    height: 42px;
-    font-weight: bold;
-    position: relative;
-    cursor: pointer;
-    border: 2px solid #FF4136;
-    color: black;
-    z-index: 1;
+  // primary
+  .fill-top-primary{
+   @include fill-top;
+   border: 2px solid get-color("primary");
   }
-  .btn-fill-top::before{
-    content: '';
-    background-color: #FF4136;
-    height: 0%;
-    position: absolute;
-    width: 100%;
-    top:0px;
-    right: 0px;
-    z-index:-1;
-     transition: all 0.25s;
-     color: white;
+  .fill-top-primary::before{
+    @include fill-top-before;
+    background-color: get-color("primary");
   }
-  .btn-fill-top:hover::before{
-    height:100%;
+  .fill-top-primary:hover::before{
+    height:110%;
   }
+
+  // warning
+  .fill-top-warning{
+   @include fill-top;
+   border: 2px solid get-color("warning");
+  }
+  .fill-top-warning::before{
+    @include fill-top-before;
+    background-color: get-color("warning");
+  }
+  .fill-top-warning:hover::before{
+    height:110%;
+  }
+
+  // danger
+  .fill-top-danger{
+   @include fill-top;
+   border: 2px solid get-color("danger");
+  }
+  .fill-top-danger::before{
+    @include fill-top-before;
+    background-color: get-color("danger");
+  }
+  .fill-top-danger:hover::before{
+    height:110%;
+  }
+
+  // dark
+    .fill-top-dark{
+   @include fill-top;
+   border: 2px solid get-color("dark");
+  }
+  .fill-top-dark::before{
+    @include fill-top-before;
+    background-color: get-color("dark");
+  }
+  .fill-top-dark:hover::before{
+    height:110%;
+  }
+
+  // light
+  .fill-top-light{
+   @include fill-top;
+   border: 2px solid get-color("light");
+  }
+  .fill-top-light::before{
+    @include fill-top-before;
+    background-color: get-color("light");
+  }
+  .fill-top-light:hover::before{
+    height:110%;
+  }
+
+  // success
+    .fill-top-success{
+   @include fill-top;
+   border: 2px solid get-color("success");
+  }
+  .fill-top-success::before{
+    @include fill-top-before;
+    background-color: get-color("success");
+  }
+  .fill-top-success:hover::before{
+    height:110%;
+  }
+
   

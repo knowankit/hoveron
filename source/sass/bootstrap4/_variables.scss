@@ -1,5 +1,6 @@
 // bootstrap 4 variables
 
+$success: #28a745;
 $primary: #007bff;
 $warning: #ffc107;
 $danger: #dc3545;
@@ -9,3 +10,20 @@ $light: #f8f9fa;
 $dark: #343a40;
 $muted: #6c757d;
 $white: #fff;
+
+$colors:(
+    success: $success,
+    primary: $primary,
+    warning: $warning,
+    danger: $danger,
+    info: $info,
+    secondary: $secondary,
+    light: $light,
+    dark: $dark,
+    muted: $muted,
+    white: $white
+);
+
+@function get-color($color) {
+    @return map-get($colors, $color);
+}

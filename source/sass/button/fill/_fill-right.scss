@@ -1,29 +1,114 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/mixins";
 
-  //Fill right
-  .btn-fill-right{
-     background-color: transparent;
-    height: 42px;
-    font-weight: bold;
-    position: relative;
-    cursor: pointer;
-    border: 2px solid #FF4136;
-    color: black;
-    z-index: 1;
-  }
-  .btn-fill-right::before{
-    content: '';
-    background-color: #FF4136;
-    height: inherit;
-    position: absolute;
-    width: 0%;
-    top:-2px;
-    right: 0px;
-    z-index:-1;
-     transition: all 0.25s;
-  }
-  .btn-fill-right:hover{
-    color: black;
-  }
-  .btn-fill-right:hover::before{
-    width:100%;
-  }
+// primary
+.fill-right-primary{
+  @include fill-right;
+  border: 2px solid get-color("primary");
+}
+.fill-right-primary::before{
+  @include fill-right-before;
+  background-color: get-color("primary");
+}
+.fill-right-primary:hover{
+  color: black;
+}
+.fill-right-primary:hover::before{
+  width:100%;
+}
+
+// info
+.fill-right-info{
+  @include fill-right;
+  border: 2px solid get-color("info");
+}
+.fill-right-info::before{
+  @include fill-right-before;
+  background-color: get-color("info");
+}
+.fill-right-info:hover{
+  color: black;
+}
+.fill-right-info:hover::before{
+  width:100%;
+}
+
+// warning
+.fill-right-warning{
+  @include fill-right;
+  border: 2px solid get-color("warning");
+}
+.fill-right-warning::before{
+  @include fill-right-before;
+  background-color: get-color("warning");
+}
+.fill-right-warning:hover{
+  color: black;
+}
+.fill-right-warning:hover::before{
+  width:100%;
+}
+
+// danger
+.fill-right-danger{
+  @include fill-right;
+  border: 2px solid get-color("danger");
+}
+.fill-right-danger::before{
+  @include fill-right-before;
+  background-color: get-color("danger");
+}
+.fill-right-danger:hover{
+  color: black;
+}
+.fill-right-danger:hover::before{
+  width:100%;
+}
+
+// secondary
+.fill-right-secondary{
+  @include fill-right;
+  border: 2px solid get-color("secondary");
+}
+.fill-right-secondary::before{
+  @include fill-right-before;
+  background-color: get-color("secondary");
+}
+.fill-right-secondary:hover{
+  color: black;
+}
+.fill-right-secondary:hover::before{
+  width:100%;
+}
+
+// light
+.fill-right-success{
+  @include fill-right;
+  border: 2px solid get-color("success");
+}
+.fill-right-success::before{
+  @include fill-right-before;
+  background-color: get-color("success");
+}
+.fill-right-success:hover{
+  color: black;
+}
+.fill-right-success:hover::before{
+  width:100%;
+}
+
+// dark
+.fill-right-dark{
+  @include fill-right;
+  border: 2px solid get-color("dark");
+}
+.fill-right-dark::before{
+  @include fill-right-before;
+  background-color: get-color("dark");
+}
+.fill-right-dark:hover{
+  color: white !important;
+}
+.fill-right-dark:hover::before{
+  width:100%;
+}
