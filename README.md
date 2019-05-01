@@ -2,6 +2,7 @@
 Pure css button animation
  
 `hover-on.css` has creative animations and transitions for your projects. It's great to make your buttons look awesome.
+![Hover gif](https://github.com/knowankit/hoveron/blob/fix/file_structure/hover-gif.gif)
 
 ## Installation
 Install via npm:
