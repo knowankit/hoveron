@@ -147,3 +147,65 @@
     transition: all 0.25s;
     z-index: -1;
 }
+
+// fill skew left
+
+@mixin fill-skew-left {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+@mixin fill-skew-left-ab {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  transition: all 0.4s;
+  z-index: -1;
+  transform: skew(-45deg);
+}
+
+// fill skew right
+@mixin fill-skew-right {
+  cursor: pointer;
+  height: 42px;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@mixin fill-skew-right-ab {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  transition: all 0.4s;
+  z-index: -1;
+  transform: skew(45deg);
+}
+
+// diagonal shine
+
+@mixin diagonal-shine {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@mixin diagonal-shine-before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  transform: skew(45deg);
+}

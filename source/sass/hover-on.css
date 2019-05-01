@@ -306,36 +306,250 @@
   height: 100%;
 }
 
-.btn-cool-shine {
+.shine-primary {
   border: none;
-  color: black;
-  font-weight: bold;
   cursor: pointer;
-  border: 2px solid #FF4136;
-  height: 42px;
   background-color: transparent;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: 2px solid #007bff;
 }
 
-.btn-cool-shine:before {
+.shine-primary:before {
   content: '';
   position: absolute;
-  background-color: #FF4136;
   height: 62px;
   width: 15%;
   left: -25%;
   top: -2px;
   -webkit-transform: skew(45deg);
           transform: skew(45deg);
+  background-color: #007bff;
 }
 
-.btn-cool-shine:hover::before {
+.shine-primary:hover::before {
   -webkit-animation-name: shine;
           animation-name: shine;
-  -webkit-animation-duration: 0.1s;
-          animation-duration: 0.1s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-warning {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #ffc107;
+}
+
+.shine-warning:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #ffc107;
+}
+
+.shine-warning:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-danger {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #dc3545;
+}
+
+.shine-danger:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #dc3545;
+}
+
+.shine-danger:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-success {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #28a745;
+}
+
+.shine-success:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #28a745;
+}
+
+.shine-success:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-info {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #138496;
+}
+
+.shine-info:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #138496;
+}
+
+.shine-info:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-secondary {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #6c757d;
+}
+
+.shine-secondary:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #6c757d;
+}
+
+.shine-secondary:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-light {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #f8f9fa;
+}
+
+.shine-light:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #f8f9fa;
+}
+
+.shine-light:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.shine-dark {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #343a40;
+}
+
+.shine-dark:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 15%;
+  left: -25%;
+  top: -2px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #343a40;
+}
+
+.shine-dark:hover::before {
+  -webkit-animation-name: shine;
+          animation-name: shine;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -424,7 +638,7 @@
 
 .fill-both2-warning:hover::before,
 .fill-both2-warning:hover::after {
-  width: 50%;
+  width: 51%;
 }
 
 .fill-both2-warning::after {
@@ -468,7 +682,7 @@
 
 .fill-both2-danger:hover::before,
 .fill-both2-danger:hover::after {
-  width: 50%;
+  width: 51%;
 }
 
 .fill-both2-danger::after {
@@ -1099,23 +1313,19 @@
   width: 100%;
 }
 
-.btn-skew-left {
+.fill-skew-left-primary {
   border: none;
-  color: black;
   z-index: 1;
-  font-weight: bold;
   cursor: pointer;
-  border: 2px solid #FF4136;
-  height: 42px;
   background-color: transparent;
   position: relative;
   overflow: hidden;
+  border: 2px solid #007bff;
 }
 
-.btn-skew-left::after, .btn-skew-left:before {
+.fill-skew-left-primary::after, .fill-skew-left-primary:before {
   content: '';
   position: absolute;
-  background-color: #FF4136;
   height: 62px;
   width: 0%;
   -webkit-transition: all 0.4s;
@@ -1123,39 +1333,295 @@
   z-index: -1;
   -webkit-transform: skew(-45deg);
           transform: skew(-45deg);
+  background-color: #007bff;
 }
 
-.btn-skew-left::before {
+.fill-skew-left-primary::before {
   left: 49%;
   top: -2px;
 }
 
-.btn-skew-left::after {
+.fill-skew-left-primary::after {
   right: 50%;
   top: -2px;
 }
 
-.btn-skew-left:hover::after, .btn-skew-left:hover::before {
+.fill-skew-left-primary:hover::after, .fill-skew-left-primary:hover::before {
   width: 100%;
 }
 
-.btn-skew-right {
+.fill-skew-left-warning {
   border: none;
-  color: black;
-  font-weight: bold;
+  z-index: 1;
   cursor: pointer;
-  border: 2px solid #FF4136;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ffc107;
+}
+
+.fill-skew-left-warning::after, .fill-skew-left-warning:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #ffc107;
+}
+
+.fill-skew-left-warning::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-warning::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-warning:hover::after, .fill-skew-left-warning:hover::before {
+  width: 100%;
+}
+
+.fill-skew-left-danger {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #dc3545;
+}
+
+.fill-skew-left-danger::after, .fill-skew-left-danger:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #dc3545;
+}
+
+.fill-skew-left-danger::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-danger::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-danger:hover::after, .fill-skew-left-danger:hover::before {
+  width: 100%;
+}
+
+.fill-skew-left-success {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #28a745;
+}
+
+.fill-skew-left-success::after, .fill-skew-left-success:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #28a745;
+}
+
+.fill-skew-left-success::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-success::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-success:hover::after, .fill-skew-left-success:hover::before {
+  width: 100%;
+}
+
+.fill-skew-left-info {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #138496;
+}
+
+.fill-skew-left-info::after, .fill-skew-left-info:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #138496;
+}
+
+.fill-skew-left-info::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-info::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-info:hover::after, .fill-skew-left-info:hover::before {
+  width: 100%;
+}
+
+.fill-skew-left-secondary {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #6c757d;
+}
+
+.fill-skew-left-secondary::after, .fill-skew-left-secondary:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #6c757d;
+}
+
+.fill-skew-left-secondary::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-secondary::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-secondary:hover::after, .fill-skew-left-secondary:hover::before {
+  width: 100%;
+}
+
+.fill-skew-left-light {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #f8f9fa;
+}
+
+.fill-skew-left-light::after, .fill-skew-left-light:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #f8f9fa;
+}
+
+.fill-skew-left-light::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-light::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-light:hover::after, .fill-skew-left-light:hover::before {
+  width: 100%;
+}
+
+.fill-skew-left-dark {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #343a40;
+}
+
+.fill-skew-left-dark::after, .fill-skew-left-dark:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+  background-color: #343a40;
+}
+
+.fill-skew-left-dark::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-left-dark::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-left-dark:hover::after, .fill-skew-left-dark:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-primary {
+  cursor: pointer;
   height: 42px;
   background-color: transparent;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: 2px solid #007bff;
 }
 
-.btn-skew-right::after, .btn-skew-right:before {
+.fill-skew-right-primary::after, .fill-skew-right-primary:before {
   content: '';
   position: absolute;
-  background-color: #FF4136;
   height: 62px;
   width: 0%;
   -webkit-transition: all 0.4s;
@@ -1163,19 +1629,279 @@
   z-index: -1;
   -webkit-transform: skew(45deg);
           transform: skew(45deg);
+  background-color: #007bff;
 }
 
-.btn-skew-right::before {
+.fill-skew-right-primary::before {
   left: 49%;
   top: -2px;
 }
 
-.btn-skew-right::after {
+.fill-skew-right-primary::after {
   right: 50%;
   top: -2px;
 }
 
-.btn-skew-right:hover::after, .btn-skew-right:hover::before {
+.fill-skew-right-primary:hover::after, .fill-skew-right-primary:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-warning {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ffc107;
+}
+
+.fill-skew-right-warning::after, .fill-skew-right-warning:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #ffc107;
+}
+
+.fill-skew-right-warning::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-warning::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-warning:hover::after, .fill-skew-right-warning:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-danger {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #dc3545;
+}
+
+.fill-skew-right-danger::after, .fill-skew-right-danger:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #dc3545;
+}
+
+.fill-skew-right-danger::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-danger::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-danger:hover::after, .fill-skew-right-danger:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-success {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #28a745;
+}
+
+.fill-skew-right-success::after, .fill-skew-right-success:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #28a745;
+}
+
+.fill-skew-right-success::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-success::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-success:hover::after, .fill-skew-right-success:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-info {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #138496;
+}
+
+.fill-skew-right-info::after, .fill-skew-right-info:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #138496;
+}
+
+.fill-skew-right-info::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-info::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-info:hover::after, .fill-skew-right-info:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-secondary {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #6c757d;
+}
+
+.fill-skew-right-secondary::after, .fill-skew-right-secondary:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #6c757d;
+}
+
+.fill-skew-right-secondary::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-secondary::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-secondary:hover::after, .fill-skew-right-secondary:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-light {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #f8f9fa;
+}
+
+.fill-skew-right-light::after, .fill-skew-right-light:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #f8f9fa;
+}
+
+.fill-skew-right-light::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-light::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-light:hover::after, .fill-skew-right-light:hover::before {
+  width: 100%;
+}
+
+.fill-skew-right-dark {
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #343a40;
+}
+
+.fill-skew-right-dark::after, .fill-skew-right-dark:before {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 0%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  background-color: #343a40;
+}
+
+.fill-skew-right-dark::before {
+  left: 49%;
+  top: -2px;
+}
+
+.fill-skew-right-dark::after {
+  right: 50%;
+  top: -2px;
+}
+
+.fill-skew-right-dark:hover::after, .fill-skew-right-dark:hover::before {
   width: 100%;
 }
 

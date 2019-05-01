@@ -1,31 +1,141 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/mixins";
 
-.btn-cool-shine{
-  border: none;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
-  border: 2px solid #FF4136;
-  height: 42px;
-  background-color: transparent;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+// primary
+.shine-primary{
+  @include diagonal-shine;
+  border: 2px solid get-color("primary");
 }
 
-.btn-cool-shine:before{
-  content: '';
-  position: absolute;
-  background-color: #FF4136;
-  height: 62px;
-  width: 15%;
-  left: -25%;
-  top: -2px;
-  transform: skew(45deg);
+.shine-primary:before{
+  @include diagonal-shine-before;
+  background-color: get-color("primary");
 }
 
-.btn-cool-shine:hover::before{
+.shine-primary:hover::before{
   animation-name: shine;
-  animation-duration: 0.1s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// warning
+.shine-warning{
+  @include diagonal-shine;
+  border: 2px solid get-color("warning");
+}
+
+.shine-warning:before{
+  @include diagonal-shine-before;
+  background-color: get-color("warning");
+}
+
+.shine-warning:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// danger
+.shine-danger{
+  @include diagonal-shine;
+  border: 2px solid get-color("danger");
+}
+
+.shine-danger:before{
+  @include diagonal-shine-before;
+  background-color: get-color("danger");
+}
+
+.shine-danger:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// success
+.shine-success{
+  @include diagonal-shine;
+  border: 2px solid get-color("success");
+}
+
+.shine-success:before{
+  @include diagonal-shine-before;
+  background-color: get-color("success");
+}
+
+.shine-success:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// info
+
+.shine-info{
+  @include diagonal-shine;
+  border: 2px solid get-color("info");
+}
+
+.shine-info:before{
+  @include diagonal-shine-before;
+  background-color: get-color("info");
+}
+
+.shine-info:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// secondary
+
+.shine-secondary{
+  @include diagonal-shine;
+  border: 2px solid get-color("secondary");
+}
+
+.shine-secondary:before{
+  @include diagonal-shine-before;
+  background-color: get-color("secondary");
+}
+
+.shine-secondary:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+//light
+.shine-light{
+  @include diagonal-shine;
+  border: 2px solid get-color("light");
+}
+
+.shine-light:before{
+  @include diagonal-shine-before;
+  background-color: get-color("light");
+}
+
+.shine-light:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+// dark
+.shine-dark{
+  @include diagonal-shine;
+  border: 2px solid get-color("dark");
+}
+
+.shine-dark:before{
+  @include diagonal-shine-before;
+  background-color: get-color("dark");
+}
+
+.shine-dark:hover::before{
+  animation-name: shine;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
