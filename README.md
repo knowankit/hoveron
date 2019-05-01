@@ -4,7 +4,7 @@ Bootrap button supported, pure css animation
 `hover-on.css` has creative animations and transitions for your projects. It's great to make your buttons look awesome.
 
 
-![Hover gif](https://github.com/knowankit/hoveron/blob/fix/file_structure/hover-gif.gif)
+![Hover gif](https://github.com/knowankit/hoveron/blob/master/hover-gif.gif)
 
 
 
