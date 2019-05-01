@@ -1,5 +1,5 @@
 # Hover-on.css ![npm](https://img.shields.io/npm/v/hover-on.svg)  ![npm bundle size](https://img.shields.io/bundlephobia/min/hover-on.svg)
-Bootrap button supported, pure css animation
+**Bootrap** button classes supported, pure css animation
  
 `hover-on.css` has creative animations and transitions for your projects. It's great to make your buttons look awesome.
 
@@ -22,10 +22,10 @@ To use hover-on.css in your website, just add the stylesheet into your document'
 </head>
 ```
 
-Import the `scss` file in your main sass file.
+or Import the `scss` file in your main sass file.
 
 ```scss
-@import "~hover-on/hover-on.css";
+@import "~hover-on/source/hover-on.scss";
 ```
 
 or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/hover-on.css)
@@ -59,7 +59,7 @@ For example:
 ```
 In the above example `btn` is from bootstrap classes and `fill-bottom-warning` is from the hover-on.
 
-**Important!** It's necessary to suffix the class name with bootstrap color name like `fill-both-primary`. You don't need to add any suffix in the 2d animation class which are `pop`, `push`, `float` etc.
+**Important!** It's necessary to suffix the class name with bootstrap color name like `fill-both-primary`. You don't need to add any suffix in 2d animation classes which are `pop`, `push`, `float` etc.
 ## Demo
 
 [Click here](https://hover.knowankit.com/)
