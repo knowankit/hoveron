@@ -1,7 +1,12 @@
-# Hover-on.css
-Pure css button animation
-
+# Hover-on.css ![npm](https://img.shields.io/npm/v/hover-on.svg)  ![npm bundle size](https://img.shields.io/bundlephobia/min/hover-on.svg)
+Bootrap button supported, pure css animation
+ 
 `hover-on.css` has creative animations and transitions for your projects. It's great to make your buttons look awesome.
+
+
+![Hover gif](https://github.com/knowankit/hoveron/blob/fix/file_structure/hover-gif.gif)
+
+
 
 ## Installation
 ### Install via npm:
@@ -22,6 +27,13 @@ To use hover-on.css in your website, just add the stylesheet into your document'
     <link rel="stylesheet" href="hover-on.css">
 </head>
 ```
+
+Import the `scss` file in your main sass file.
+
+```scss
+@import "~hover-on/hover-on.css";
+```
+
 or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/hover-on.css)
 
 ```html
@@ -32,20 +44,28 @@ or use a CDN version by [jsDelivr](https://cdn.jsdelivr.net/npm/hover-on/hover-o
 
 ## Animations
 
-| Class Name       |                        |                     |
-| ---------------  |:---------------------: | ------------------: |
-| `btn-underline`  | `btn-underline-bottom` | `btn-underline-top` |
-| `btn-fill-left`  | `btn-fill-right`       | `btn-fill-top`      |
-| `btn-fill-bottom`| `btn-top-bottom`       | `btn-left-right`    |
-| `btn-skew-left`  | `btn-skew-right`       | `btn-cool-shine`    |
-| `btn-grow`       | `btn-shrink`           | `btn-pulse`         |
-| `btn-pulse-grow` | `btn-pulse-shrink`     | `btn-push`          |
-| `btn-pop`        | `btn-bounce-in`        | `btn-bounce-out`    |
-| `btn-rotate`     | `btn-rotate-grow`      | `btn-float`         |
-| `btn-sink`       | `btn-bob`              | `btn-hang`          | 
-| `btn-skew`       | `btn-wobble-skew`      | `btn-forward`       | 
-| `btn-backward`   | `btn-shadow`           |                     | 
+| Class Name       |                    |                 |
+| --------------   |:-----------------: | --------------: |
+| `both-line`      | `bottom-line`      | `top-line`      |
+| `fill-left`      | `fill-right`       | `fill-top`      |
+| `fill-bottom`    | `fill-both`        | `fill-both2`    |
+| `fill-skew-left` | `fill-skew-right`  | `shine`         |
+| `grow`           | `shrink`           | `pulse`         |
+| `pulse-grow`     | `pulse-shrink`     | `push`          |
+| `pop`            | `bounce-in`        | `bounce-out`    |
+| `rotate`         | `rotate-grow`      | `float`         |
+| `sink`           | `bob`              | `hang`          | 
+| `skew`           | `wobble-skew`      | `forward`       | 
+| `backward`       | `shadow`           |                 | 
 
+For example:
+
+```html
+<button class="btn fill-bottom-warning">Warning</button>
+```
+In the above example `btn` is from bootstrap classes and `fill-bottom-warning` is from the hover-on.
+
+**Important!** It's necessary to suffix the class name with bootstrap color name like `fill-both-primary`. You don't need to add any suffix in the 2d animation class which are `pop`, `push`, `float` etc.
 ## Demo
 
 [Click here](https://hover.knowankit.com/)

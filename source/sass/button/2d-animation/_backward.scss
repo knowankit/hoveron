@@ -1,0 +1,12 @@
+.backward {
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  color: black;
+  transition: all 0.25s;
+}
+.backward:hover {
+  transform: translatex(-10px);
+}

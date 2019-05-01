@@ -1,0 +1,23 @@
+.push{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.push:hover {
+  animation-name: push;
+  animation-iteration-count: 1;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+}
+
+@keyframes push {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}

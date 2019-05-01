@@ -1,0 +1,210 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/line-mixins";
+
+//primary
+  .both-line-primary{
+   @include both-line;
+    color: get-color("primary") !important;
+  }
+  .both-line-primary::after,
+  .both-line-primary::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-primary::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("primary");
+  }
+  
+  .both-line-primary::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("primary");
+  }
+  .both-line-primary:hover::before,
+  .both-line-primary:hover::after {
+    width: 100%;
+  }
+
+  // success
+   .both-line-success{
+   @include both-line;
+    color: get-color("success") !important;
+  }
+  .both-line-success::after,
+  .both-line-success::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-success::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("success");
+  }
+  
+  .both-line-success::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("success");
+  }
+  .both-line-success:hover::before,
+  .both-line-success:hover::after {
+    width: 100%;
+  }
+
+  // danger
+   .both-line-danger{
+   @include both-line;
+    color: get-color("danger") !important;
+  }
+  .both-line-danger::after,
+  .both-line-danger::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-danger::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("danger");
+  }
+  
+  .both-line-danger::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("danger");
+  }
+  .both-line-danger:hover::before,
+  .both-line-danger:hover::after {
+    width: 100%;
+  }
+
+  // warning
+   .both-line-warning{
+   @include both-line;
+    color: get-color("warning") !important;
+  }
+  .both-line-warning::after,
+  .both-line-warning::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-warning::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("warning");
+  }
+  
+  .both-line-warning::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("warning");
+  }
+  .both-line-warning:hover::before,
+  .both-line-warning:hover::after {
+    width: 100%;
+  }
+
+  //info
+   .both-line-info{
+   @include both-line;
+    color: get-color("info") !important;
+  }
+  .both-line-info::after,
+  .both-line-info::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-info::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("info");
+  }
+  
+  .both-line-info::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("info");
+  }
+  .both-line-info:hover::before,
+  .both-line-info:hover::after {
+    width: 100%;
+  }
+
+  // secondary
+ .both-line-secondary{
+   @include both-line;
+    color: get-color("secondary") !important;
+  }
+  .both-line-secondary::after,
+  .both-line-secondary::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-secondary::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("secondary");
+  }
+  
+  .both-line-secondary::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("secondary");
+  }
+  .both-line-secondary:hover::before,
+  .both-line-secondary:hover::after {
+    width: 100%;
+  }
+
+  // light
+   .both-line-light{
+   @include both-line;
+    color: get-color("light") !important;
+  }
+  .both-line-light::after,
+  .both-line-light::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-light::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("light");
+  }
+  
+  .both-line-light::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("light");
+  }
+  .both-line-light:hover::before,
+  .both-line-light:hover::after {
+    width: 100%;
+  }
+
+  // dark
+   .both-line-dark{
+   @include both-line;
+    color: get-color("dark") !important;
+  }
+  .both-line-dark::after,
+  .both-line-dark::before {
+    @include both-line-ab;
+  }
+  
+  .both-line-dark::before {
+    top: -5px;
+    left: 0px;
+    border-top: 2px solid get-color("dark");
+  }
+  
+  .both-line-dark::after {
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 2px solid get-color("dark");
+  }
+  .both-line-dark:hover::before,
+  .both-line-dark:hover::after {
+    width: 100%;
+  }

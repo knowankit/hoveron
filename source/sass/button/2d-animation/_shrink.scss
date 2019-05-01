@@ -1,0 +1,10 @@
+.shrink{
+  border: none;
+  padding: 10px;
+  height: 42px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.shrink:hover {
+  transform: scale(0.9);
+}

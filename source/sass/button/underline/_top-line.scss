@@ -1,0 +1,107 @@
+@import "../../bootstrap4/variables";
+@import "../../bootstrap4/line-mixins";
+
+  // primary
+  .top-line-primary{
+   @include top-line;
+   color: get-color("primary") !important;
+  }
+  .top-line-primary::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("primary");
+  }
+  .top-line-primary:hover::before {
+    width: 100%;
+  }
+
+  // success
+.top-line-success{
+   @include top-line;
+   color: get-color("success") !important;
+  }
+  .top-line-success::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("success");
+  }
+  .top-line-success:hover::before {
+    width: 100%;
+  }
+
+  // danger
+  .top-line-danger{
+   @include top-line;
+   color: get-color("danger") !important;
+  }
+  .top-line-danger::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("danger");
+  }
+  .top-line-danger:hover::before {
+    width: 100%;
+  }
+
+  // warning
+  .top-line-warning{
+   @include top-line;
+   color: get-color("warning") !important;
+  }
+  .top-line-warning::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("warning");
+  }
+  .top-line-warning:hover::before {
+    width: 100%;
+  }
+
+  // info
+  .top-line-info{
+   @include top-line;
+   color: get-color("info") !important;
+  }
+  .top-line-info::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("info");
+  }
+  .top-line-info:hover::before {
+    width: 100%;
+  }
+
+  // secondary
+  .top-line-secondary{
+   @include top-line;
+   color: get-color("secondary") !important;
+  }
+  .top-line-secondary::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("secondary");
+  }
+  .top-line-secondary:hover::before {
+    width: 100%;
+  }
+
+  // light
+  .top-line-light{
+   @include top-line;
+   color: get-color("light") !important;
+  }
+  .top-line-light::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("light");
+  }
+  .top-line-light:hover::before {
+    width: 100%;
+  }
+
+  // dark
+  .top-line-dark{
+   @include top-line;
+   color: get-color("dark") !important;
+  }
+  .top-line-dark::before {
+   @include top-line-before;
+    border-bottom: 2px solid get-color("dark");
+  }
+  .top-line-dark:hover::before {
+    width: 100%;
+  }
+  
