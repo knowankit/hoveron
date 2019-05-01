@@ -1,5 +1,5 @@
 # Hover-on.css ![npm](https://img.shields.io/npm/v/hover-on.svg)  ![npm bundle size](https://img.shields.io/bundlephobia/min/hover-on.svg)
-**Bootrap** button classes supported, pure css animation
+**Bootrap** button classes are supported, pure css animation
  
 `hover-on.css` has creative animations and transitions for your projects. It's great to make your buttons look awesome.
 
