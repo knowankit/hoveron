@@ -9,10 +9,16 @@ Bootrap button supported, pure css animation
 
 
 ## Installation
-Install via npm:
+### Install via npm:
 
 `$ npm install hover-on`
 
+### SCSS
+
+You can also import `hover-on.scss` in your main scss file.
+```scss
+@import '~hover-on/source/sass/hover-on.scss';
+```
 ## Usage
 To use hover-on.css in your website, just add the stylesheet into your document's `<head>`, add the appropriate class to the button. That's it! You've got a animated button. Cool!
 
