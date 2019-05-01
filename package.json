@@ -1,6 +1,6 @@
 {
   "name": "hover-on",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hover animation buttons also supports bootstrap buttons",
   "main": "hover-on.css",
   "scripts": {
